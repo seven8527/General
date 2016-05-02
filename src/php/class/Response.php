@@ -11,7 +11,8 @@ class Response
 	*/
 	public static function result($code, $message='', $data=array())
 	{
-		$type = $_GET['format'];
+		//$type = isset($_GET['format'])?$_GET['format']:'';
+		$type = $_GET['format']
 		if(!$type)
 		{
 			//var_dump($type);

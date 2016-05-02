@@ -19,7 +19,8 @@ mysql_select_db(DB_DBNAME, $conn) or die('选择数据库失败：'.mysql_error(
 mysql_query('set NAMES UTF8')or die('设置字符集错误：'.mysql_error()); 
 
 //查询数据
-$query = "select * from ".DB_TABLENAME;
+//$query = "select * from ".DB_TABLENAME;
+$query = "select * from user";
 $result = mysql_query($query, $conn)or die('查询出错：'.mysql_error());
 
 //输出资源
