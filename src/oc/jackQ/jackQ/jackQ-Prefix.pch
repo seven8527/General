@@ -1,0 +1,18 @@
+//
+//  jackQ-Prefix.pch
+//  jackQ
+//
+//  Created by owen on 16/5/3.
+//  Copyright © 2016年 simon. All rights reserved.
+//
+
+#ifndef jackQ_Prefix_pch
+#define jackQ_Prefix_pch
+
+
+#import "AFNetworking.h"
+#import "PureLayout.h"
+#import "SVProgressHUD.h"
+
+
+#endif /* jackQ_Prefix_pch */
