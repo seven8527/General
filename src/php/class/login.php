@@ -7,21 +7,22 @@ require_once('./Response.php');
 	$usr = $_POST["username"];
 	$pwd = $_POST["password"];
 
-	if ($usr) {
+	if (empty($usr)) {
 		echo Response::result(401, '用户名为空', array());
 	}
-	elseif ($pwd) {
+	elseif (empty($pwd)) {
 		echo Response::result(402, '密码为空', array());
 	}
 	else
 	{
 
 		$conn = DB::getInstance()->connect();
-		$sql = "select pwd from user where name = {$usr}";
+		$sql = "SELECT pwd FROM `user` WHERE name='{$usr}'";
 		$result = mysql_query($sql, $conn);
-
-		if ($result == false) {
-			echo Response::result(403, $sql, array());
+		//var_dump($sql);
+		//var_dump($result);
+		if ($result==false) {
+			echo Response::result(403, '用户不存在', array());
 			exit();
 		}
 
