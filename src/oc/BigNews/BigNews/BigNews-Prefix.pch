@@ -1,0 +1,31 @@
+//
+//  BigNews-Prefix.pch
+//  BigNews
+//
+//  Created by owen on 15-8-12.
+//  Copyright (c) 2015年 . All rights reserved.
+//
+
+#ifndef BigNews_BigNews_Prefix_pch
+#define BigNews_BigNews_Prefix_pch
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <AFNetworking/AFNetworking.h>
+#import <Reachability/Reachability.h>
+#import <MBProgressHUD/MBProgressHUD.h>
+#import <JSONModel/JSONModelLib.h>
+#import <Objection.h>
+#import <PureLayout/PureLayout.h>
+#import "UIImageView+WebCache.h"
+#import "MjRefresh.h"
+
+//#import "Utils.h"
+#import "MacroDefinition.h"
+#import "Protocols.h"
+#import "Const.h"
+
+#endif
+
+#endif

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>5214B11D-1AF7-474E-8378-250B95CAE602</string>
+	<key>IDESourceControlProjectName</key>
+	<string>BigNews</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>F80DC212-1046-42ED-868E-1473625C8D4F</key>
+		<string>file://localhost/Users/owen/%E5%BF%AB%E7%9B%98/SVN_LIB</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>trunk/IOS/BigNews/BigNews.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>F80DC212-1046-42ED-868E-1473625C8D4F</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>F80DC212-1046-42ED-868E-1473625C8D4F</key>
+		<string>file://localhost/Users/owen/%E5%BF%AB%E7%9B%98/SVN_LIB</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>file://localhost/Users/owen/%E5%BF%AB%E7%9B%98/SVN_LIB/trunk/IOS/BigNews/BigNews.xcworkspace</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F80DC212-1046-42ED-868E-1473625C8D4F</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F80DC212-1046-42ED-868E-1473625C8D4F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>SVN_LIB</string>
+		</dict>
+	</array>
+</dict>
+</plist>

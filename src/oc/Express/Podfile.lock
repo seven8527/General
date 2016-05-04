@@ -1,0 +1,99 @@
+PODS:
+  - AFNetworking (2.5.4):
+    - AFNetworking/NSURLConnection (= 2.5.4)
+    - AFNetworking/NSURLSession (= 2.5.4)
+    - AFNetworking/Reachability (= 2.5.4)
+    - AFNetworking/Security (= 2.5.4)
+    - AFNetworking/Serialization (= 2.5.4)
+    - AFNetworking/UIKit (= 2.5.4)
+  - AFNetworking/NSURLConnection (2.5.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.5.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.5.4)
+  - AFNetworking/Security (2.5.4)
+  - AFNetworking/Serialization (2.5.4)
+  - AFNetworking/UIKit (2.5.4):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - APNumberPad (1.1.3)
+  - DACircularProgress (2.3.1)
+  - DTCoreText (1.6.16):
+    - DTFoundation/Core (~> 1.7.5)
+    - DTFoundation/DTAnimatedGIF (~> 1.7.5)
+    - DTFoundation/DTHTMLParser (~> 1.7.5)
+    - DTFoundation/UIKit (~> 1.7.5)
+  - DTFoundation/Core (1.7.8)
+  - DTFoundation/DTAnimatedGIF (1.7.8)
+  - DTFoundation/DTHTMLParser (1.7.8):
+    - DTFoundation/Core
+  - DTFoundation/UIKit (1.7.8):
+    - DTFoundation/Core
+  - FMDB (2.5):
+    - FMDB/standard (= 2.5)
+  - FMDB/common (2.5)
+  - FMDB/standard (2.5):
+    - FMDB/common
+  - JSONModel (1.0.2)
+  - libqrencode (3.4.2)
+  - MBProgressHUD (0.9.1)
+  - MJRefresh (1.4.7)
+  - MWPhotoBrowser (2.1.1):
+    - DACircularProgress (~> 2.3)
+    - MBProgressHUD (~> 0.9)
+    - SDWebImage (!= 3.7.2, ~> 3.7)
+  - Objection (1.6.1)
+  - PureLayout (2.0.6)
+  - Reachability (3.1.1)
+  - SDWebImage (3.7.3):
+    - SDWebImage/Core (= 3.7.3)
+  - SDWebImage/Core (3.7.3)
+  - SVProgressHUD (2.0-beta)
+  - TRSDialScrollView (1.0.8)
+  - TTTAttributedLabel (1.13.4)
+  - ZYQAssetPickerController (1.0.0)
+
+DEPENDENCIES:
+  - AFNetworking (~> 2.5.1)
+  - APNumberPad (~> 1.1.2)
+  - DTCoreText (~> 1.6.14)
+  - FMDB (~> 2.5)
+  - JSONModel (~> 1.0.2)
+  - libqrencode (~> 3.4.2)
+  - MJRefresh (~> 1.4.6)
+  - MWPhotoBrowser (~> 2.1.1)
+  - Objection (~> 1.4)
+  - PureLayout (~> 2.0.4)
+  - Reachability (~> 3.1.1)
+  - SDWebImage (~> 3.7.1)
+  - SVProgressHUD (~> 2.0-beta)
+  - TRSDialScrollView (~> 1.0.7)
+  - TTTAttributedLabel (~> 1.13.3)
+  - ZYQAssetPickerController (~> 1.0.0)
+
+SPEC CHECKSUMS:
+  AFNetworking: 05edc0ac4c4c8cf57bcf4b84be5b0744b6d8e71e
+  APNumberPad: fb170244d10fd3946b6bf1d724af3c0bf209f0d9
+  DACircularProgress: 4dd437c0fc3da5161cb289e07ac449493d41db71
+  DTCoreText: 934a16fe9ffdd169c96261721b39dc312b75713d
+  DTFoundation: 46e2b2fafe78d67febfd8d1f85fe9845a093f00e
+  FMDB: 96e8f1bcc1329e269330f99770ad4285d9003e52
+  JSONModel: 6ffcb4ffa3659c9e9a2e5d45d6c7705bab187c03
+  libqrencode: 43dc34b89af83ea4b07c409cd8e09c87aa3a1c9f
+  MBProgressHUD: c47f2c166c126cf2ce36498d80f33e754d4e93ad
+  MJRefresh: 6b140993028fa30f1fcb88e82925a7c7911415cf
+  MWPhotoBrowser: ba0d0c09ffda3a7ea10093518738c502c1c7141c
+  Objection: ed03f2219cb22d2b5b893114219fe6c7e3263bde
+  PureLayout: f25f0bb904d5ccfe6e31da3cb869185259f02e0d
+  Reachability: dd9aa4fb6667b9f787690a74f53cb7634ce99893
+  SDWebImage: 1d2b1a1efda1ade1b00b6f8498865f8ddedc8a84
+  SVProgressHUD: c83337f10ed32d701c423d519059a249973c8662
+  TRSDialScrollView: 442480c2afebd61eb30a0b2543df3948f2b7b1ef
+  TTTAttributedLabel: 0a2ac7b2dd726d32a070dafb01446026b11e624f
+  ZYQAssetPickerController: e5cf51ee6c05fa06746830026c247cb9f6699e84
+
+COCOAPODS: 0.39.0

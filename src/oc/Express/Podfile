@@ -1,0 +1,27 @@
+# Uncomment this line to define a global platform for your project
+# platform :ios, '6.0'
+
+target 'Express' do
+pod 'AFNetworking', '~> 2.5.1'
+pod 'JSONModel', '~> 1.0.2'
+pod 'Objection', '~> 1.4'
+#pod 'MBProgressHUD', '~> 0.9'
+pod 'Reachability', '~> 3.1.1'
+pod 'SDWebImage', '~> 3.7.1'
+pod 'PureLayout', '~> 2.0.4'
+pod 'DTCoreText', '~> 1.6.14'
+pod 'APNumberPad', '~> 1.1.2'
+pod 'TRSDialScrollView', '~> 1.0.7'
+pod 'MJRefresh', '~> 1.4.6'
+pod 'FMDB', '~> 2.5'
+pod 'TTTAttributedLabel', '~> 1.13.3'
+pod 'MWPhotoBrowser', '~> 2.1.1'
+pod 'ZYQAssetPickerController', '~> 1.0.0'
+pod 'libqrencode', '~> 3.4.2'
+pod 'SVProgressHUD', '~> 2.0-beta'
+
+end
+
+target 'ExpressTests' do
+
+end

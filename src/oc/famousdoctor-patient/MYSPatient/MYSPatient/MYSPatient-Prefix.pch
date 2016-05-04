@@ -1,0 +1,32 @@
+//
+//  MYSPatient-Prefix.pch
+//  MYSPatient
+//
+//  Created by 闫文波 on 15-1-4.
+//  Copyright (c) 2015年 SINO HEALTHNET. All rights reserved.
+//
+
+#ifndef MYSPatient_MYSPatient_Prefix_pch
+#define MYSPatient_MYSPatient_Prefix_pch
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <AFNetworking/AFNetworking.h>
+#import <Reachability/Reachability.h>
+#import <MBProgressHUD/MBProgressHUD.h>
+#import <JSONModel/JSONModelLib.h>
+#import <Objection.h>
+#import <PureLayout/PureLayout.h>
+
+
+
+
+
+#import "Protocols.h"
+#import "UtilsMacro.h"
+#import "Utils.h"
+
+#endif
+
+#endif

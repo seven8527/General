@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+   wangkaiemoji.plist
+   Express
+
+   Created by owen on 15/11/17.
+   Copyright (c) 2015年 owen. All rights reserved.
+-->
+<plist version="1.0">
+    <dict>
+        <key>[\小凯_挨骂]</key>
+        <string>kai_aima.png</string>
+        <key>[\小凯_抽烟]</key>
+        <string>kai_chouyan.png</string>
+        <key>[\小凯_好困]</key>
+        <string>kai_haokun.png</string>
+        <key>[\小凯_瞌睡]</key>
+        <string>kai_keshui.png</string>
+        <key>[\小凯_快下班啦]</key>
+        <string>kai_xiaban.png</string>
+        <key>[\小凯_狂奔]</key>
+        <string>kai_kuangben.png</string>
+        <key>[\小凯_没想法]</key>
+        <string>kai_meibanfa.png</string>
+        <key>[\小凯_努力工作]</key>
+        <string>kai_nuligongzuo.png</string>
+        <key>[\小凯_时间好慢]</key>
+        <string>kai_shijianhaoman.png</string>
+        <key>[\小凯_睡过啦]</key>
+        <string>kai_shuiguola.png</string>
+        <key>[\小凯_头脑风暴]</key>
+        <string>kai_tounaofengbao.png</string>
+        <key>[\小凯_午饭时间]</key>
+        <string>kai_wufanshijian.png</string>
+        <key>[\小凯_下班啦]</key>
+        <string>kai_xiabanla.png</string>
+        <key>[\小凯_再睡会]</key>
+        <string>kai_shuihuier.png</string>
+        <key>[\小凯_早]</key>
+        <string>kai_zao.png</string>
+
+    </dict>
+</plist>

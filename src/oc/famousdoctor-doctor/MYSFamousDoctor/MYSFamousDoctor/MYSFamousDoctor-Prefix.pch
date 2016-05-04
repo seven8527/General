@@ -1,0 +1,38 @@
+//
+//  MYSFamousDoctor-Prefix.pch
+//  MYSFamousDoctor
+//
+//  Created by yanwb on 15/4/8.
+//  Copyright (c) 2015年 SINO HEALTHNET. All rights reserved.
+//
+
+#ifndef MYSFamousDoctor_MYSFamousDoctor_Prefix_pch
+#define MYSFamousDoctor_MYSFamousDoctor_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <AFNetworking/AFNetworking.h>
+#import <Reachability/Reachability.h>
+#import <MBProgressHUD/MBProgressHUD.h>
+#import <JSONModel/JSONModelLib.h>
+#import <Objection.h>
+
+#import "UIColor+Hex.h"
+#import "BaseViewController.h"
+#import "MYSUserInfoManager.h"
+#import "UIImageView+WebCache.h"
+#import "MYSUtils.h"
+
+#import "Protocols.h"
+#import "UtilsMacro.h"
+#import "HttpTool.h"
+
+#import "MobClick.h"
+
+#define UMENG_APPKEY @"53cde22c56240b55aa02368c"
+
+#endif
+#endif

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+   xiaoxuanemoji.plist
+   Express
+
+   Created by owen on 15/11/17.
+   Copyright (c) 2015年 owen. All rights reserved.
+-->
+<plist version="1.0">
+    <dict>
+        <key>[\小璇_欢呼]</key>
+        <string>xx_huanhu.png</string>
+        <key>[\小璇_拜托]</key>
+        <string>xx_baituo.png</string>
+        <key>[\小璇_棒]</key>
+        <string>xx_bang.png</string>
+        <key>[\小璇_讨厌]</key>
+        <string>xx_taoyan.png</string>
+        <key>[\小璇_疑问]</key>
+        <string>xx_yiwen.png</string>
+        <key>[\小璇_弱爆了]</key>
+        <string>xx_ruo.png</string>
+        <key>[\小璇_来呀来呀]</key>
+        <string>xx_laiya.png</string>
+        <key>[\小璇_么么哒]</key>
+        <string>xx_momoda.png</string>
+        <key>[\小璇_猫咪]</key>
+        <string>xx_maomi.png</string>
+        <key>[\小璇_哭]</key>
+        <string>xx_ku.png</string>
+        <key>[\小璇_挠头]</key>
+        <string>xx_naotou.png</string>
+        <key>[\小璇_汗]</key>
+        <string>xx_han.png</string>
+        <key>[\小璇_困]</key>
+        <string>xx_kun.png</string>
+        <key>[\小璇_馋]</key>
+        <string>xx_chan.png</string>
+        <key>[\小璇_恶魔]</key>
+        <string>xx_emo.png</string>
+        <key>[\小璇_哈哈]</key>
+        <string>xx_haha.png</string>
+        <key>[\小璇_呵呵]</key>
+        <string>xx_hehe.png</string>
+        <key>[\小璇_ok]</key>
+        <string>xx_ok.png</string>
+        <key>[\小璇_爱你]</key>
+        <string>xx_aini.png</string>
+        <key>[\小璇_嗨]</key>
+        <string>xx_hi.png</string>
+        <key>[\小璇_加油]</key>
+        <string>xx_jiayou.png</string>
+        <key>[\小璇_开枪]</key>
+        <string>xx_kaiqiang.png</string>
+        <key>[\小璇_没办法]</key>
+        <string>xx_meibanfa.png</string>
+        <key>[\小璇_怒火]</key>
+        <string>xx_nuhuo.png</string>
+        <key>[\小璇_哎呀妈呀]</key>
+        <string>xx_aiyamaya.png</string>
+        <key>[\小璇_挨揍]</key>
+        <string>xx_aizou.png</string>
+        <key>[\小璇_恭喜发财]</key>
+        <string>xx_gongxifacai.png</string>
+        <key>[\小璇_鼓掌]</key>
+        <string>xx_guzhang.png</string>
+        <key>[\小璇_花痴]</key>
+        <string>xx_huachi.png</string>
+        <key>[\小璇_惊吓]</key>
+        <string>xx_jingxia.png</string>
+        <key>[\小璇_灵感]</key>
+        <string>xx_linggan.png</string>
+        <key>[\小璇_睡觉]</key>
+        <string>xx_shui.png</string>
+        <key>[\小璇_委屈]</key>
+        <string>xx_weiqu.png</string>
+        <key>[\小璇_嫌弃]</key>
+        <string>xx_xianqi.png</string>
+        <key>[\小璇_天啊]</key>
+        <string>xx_tianya.png</string>
+        <key>[\小璇_思索]</key>
+        <string>xx_sisuo.png</string>
+    </dict>
+</plist>

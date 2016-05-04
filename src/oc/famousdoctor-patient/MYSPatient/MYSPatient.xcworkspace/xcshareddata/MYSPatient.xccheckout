@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>85BE0071-D04F-4CC7-B282-5531DEC1D8C9</string>
+	<key>IDESourceControlProjectName</key>
+	<string>MYSPatient</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>db96e455-8e92-407a-b8a4-fe09f6ffad6e++3946</key>
+		<string>svn://119.255.49.29/xadev/new/code/ios</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>trunk/famousdoctor-patient/MYSPatient/MYSPatient.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>db96e455-8e92-407a-b8a4-fe09f6ffad6e++3946</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>db96e455-8e92-407a-b8a4-fe09f6ffad6e++3946</key>
+		<string>svn://119.255.49.29/xadev</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>svn://119.255.49.29/xadev/new/code/ios/trunk/famousdoctor-patient/MYSPatient/MYSPatient.xcworkspace</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>db96e455-8e92-407a-b8a4-fe09f6ffad6e++3946</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>db96e455-8e92-407a-b8a4-fe09f6ffad6e++3946</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ios</string>
+		</dict>
+	</array>
+</dict>
+</plist>
