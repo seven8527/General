@@ -1,0 +1,22 @@
+# Uncomment this line to define a global platform for your project
+# platform :ios, '6.0'
+
+target 'Login' do
+
+pod 'AFNetworking', '~> 2.5.1'
+pod 'JSONModel', '~> 1.0.1'
+pod 'Objection', '~> 1.4'
+pod 'MBProgressHUD', '~> 0.9'
+pod 'Reachability', '~> 3.1.1'
+pod 'SDWebImage', '~> 3.7.1'
+pod 'PureLayout', '~> 2.0.4'
+pod 'QBFlatButton', '~> 1.1'
+pod 'DTCoreText', '~> 1.6.14'
+pod 'APNumberPad', '~> 1.1.2'
+
+end
+
+target 'LoginTests' do
+
+end
+

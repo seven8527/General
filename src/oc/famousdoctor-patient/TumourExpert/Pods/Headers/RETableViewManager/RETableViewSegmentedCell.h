@@ -1,0 +1,1 @@
+link ../../RETableViewManager/RETableViewManager/Cells/RETableViewSegmentedCell.h

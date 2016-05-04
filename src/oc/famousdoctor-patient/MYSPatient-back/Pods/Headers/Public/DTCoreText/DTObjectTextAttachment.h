@@ -1,0 +1,1 @@
+link ../../../DTCoreText/Core/Source/DTObjectTextAttachment.h

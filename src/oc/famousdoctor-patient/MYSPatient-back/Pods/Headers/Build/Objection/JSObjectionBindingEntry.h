@@ -1,0 +1,1 @@
+link ../../../Objection/Source/JSObjectionBindingEntry.h

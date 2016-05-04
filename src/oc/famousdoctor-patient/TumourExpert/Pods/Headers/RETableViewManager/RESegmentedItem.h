@@ -1,0 +1,1 @@
+link ../../RETableViewManager/RETableViewManager/Items/RESegmentedItem.h

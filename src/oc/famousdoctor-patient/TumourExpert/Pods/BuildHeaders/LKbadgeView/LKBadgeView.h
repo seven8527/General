@@ -1,0 +1,1 @@
+link ../../LKbadgeView/LKBadgeView.h

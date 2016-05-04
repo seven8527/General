@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>23F7E1BB-89E3-4875-A089-0AF375F27CC1</string>
+	<key>IDESourceControlProjectName</key>
+	<string>TumourExpert</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>0BE9B9A9-D4E5-4918-9B2E-C5EC73EF7577</key>
+		<string>svn://192.168.1.46/client/ios</string>
+		<key>85e367c4-8c1d-46ca-81d7-cbf3a8158242++3055</key>
+		<string>svn://192.168.1.46/ios_patient_1.0/program/TumourExpert</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>TumourExpert.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>0BE9B9A9-D4E5-4918-9B2E-C5EC73EF7577</key>
+		<string>../../../ios</string>
+		<key>85e367c4-8c1d-46ca-81d7-cbf3a8158242++3055</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>0BE9B9A9-D4E5-4918-9B2E-C5EC73EF7577</key>
+		<string>svn://192.168.1.46/client</string>
+		<key>85e367c4-8c1d-46ca-81d7-cbf3a8158242++3055</key>
+		<string>svn://192.168.1.46/ios_patient_1.0</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>svn://192.168.1.46/ios_patient_1.0/program/TumourExpert/TumourExpert.xcodeproj</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>85e367c4-8c1d-46ca-81d7-cbf3a8158242++3055</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>0BE9B9A9-D4E5-4918-9B2E-C5EC73EF7577</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ios</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>85e367c4-8c1d-46ca-81d7-cbf3a8158242++3055</string>
+			<key>IDESourceControlWCCName</key>
+			<string>TumourExpert</string>
+		</dict>
+	</array>
+</dict>
+</plist>

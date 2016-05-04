@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>CDEBDBBC-3A8F-4243-9AC8-D7966C2B2607</string>
+	<key>IDESourceControlProjectName</key>
+	<string>TumourExpert</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>59be2887-5748-4225-9a89-6f05413833fc++775</key>
+		<string>svn://119.255.49.29/dev/mobile/ios_patient/program</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>TumourExpert/TumourExpert.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>59be2887-5748-4225-9a89-6f05413833fc++775</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>59be2887-5748-4225-9a89-6f05413833fc++775</key>
+		<string>svn://119.255.49.29/dev</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>svn://119.255.49.29/dev/mobile/ios_patient/program/TumourExpert/TumourExpert.xcworkspace</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>59be2887-5748-4225-9a89-6f05413833fc++775</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>59be2887-5748-4225-9a89-6f05413833fc++775</string>
+			<key>IDESourceControlWCCName</key>
+			<string>program</string>
+		</dict>
+	</array>
+</dict>
+</plist>

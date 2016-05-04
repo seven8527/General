@@ -1,0 +1,1 @@
+link ../../../DTFoundation/Core/Source/DTAsyncFileDeleter.h

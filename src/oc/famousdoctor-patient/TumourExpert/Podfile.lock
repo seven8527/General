@@ -1,0 +1,91 @@
+PODS:
+  - AFNetworking (2.4.1):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+    - AFNetworking/UIKit
+  - AFNetworking/NSURLConnection (2.4.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.4.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.4.1)
+  - AFNetworking/Security (2.4.1)
+  - AFNetworking/Serialization (2.4.1)
+  - AFNetworking/UIKit (2.4.1):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - DTCoreText (1.6.13):
+    - DTFoundation/Core (~> 1.7.1)
+    - DTFoundation/DTAnimatedGIF (~> 1.7.1)
+    - DTFoundation/DTHTMLParser (~> 1.7.1)
+    - DTFoundation/UIKit (~> 1.7.1)
+  - DTFoundation/Core (1.7.3)
+  - DTFoundation/DTAnimatedGIF (1.7.3)
+  - DTFoundation/DTHTMLParser (1.7.3):
+    - DTFoundation/Core
+  - DTFoundation/UIKit (1.7.3):
+    - DTFoundation/Core
+  - DZNEmptyDataSet (1.3.2)
+  - IQKeyboardManager (3.2.0.2)
+  - JDStatusBarNotification (1.4.8)
+  - JSONModel (0.13.0)
+  - LKbadgeView (1.1.0)
+  - MBProgressHUD (0.9)
+  - MDHTMLLabel (1.0.2)
+  - Objection (1.4)
+  - Reachability (3.1.1)
+  - REFormattedNumberField (1.1.5)
+  - RETableViewManager (1.5.10):
+    - REFormattedNumberField (~> 1.1.2)
+    - REValidation (~> 0.1.4)
+  - REValidation (0.1.4)
+  - SDWebImage (3.7.1):
+    - SDWebImage/Core
+  - SDWebImage/Core (3.7.1)
+  - SSKeychain (1.2.2)
+  - SVPullToRefresh (0.4.1)
+
+DEPENDENCIES:
+  - AFNetworking (~> 2.4.1)
+  - DTCoreText (~> 1.6.13)
+  - DZNEmptyDataSet
+  - IQKeyboardManager (~> 3.2.0.2)
+  - JDStatusBarNotification
+  - JSONModel (~> 0.13.0)
+  - LKbadgeView (~> 1.1.0)
+  - MBProgressHUD (~> 0.9)
+  - MDHTMLLabel (~> 1.0.2)
+  - Objection (~> 1.4)
+  - Reachability (~> 3.1.1)
+  - RETableViewManager (~> 1.5.10)
+  - SDWebImage (~> 3.7.1)
+  - SSKeychain (~> 1.2.2)
+  - SVPullToRefresh
+
+SPEC CHECKSUMS:
+  AFNetworking: 0aabc6fae66d6e5d039eeb21c315843c7aae51ab
+  DTCoreText: 84eb8ba2e70448fdd9d837540e371f9f587b65ba
+  DTFoundation: 360bc65ab44f588611f47324b8cfb0f18e04b263
+  DZNEmptyDataSet: 187872be53d045fd1fccab0d1561659cd29a014a
+  IQKeyboardManager: f30f3e98fa36ca1599042c9d0cea2fb4f4ac3df9
+  JDStatusBarNotification: c68611370dedc0ef865fb0fc1768dfbaf8fd961f
+  JSONModel: 62ea96b49ea18a8b91ef89c249dba291d8601d82
+  LKbadgeView: 8e14044ee22c6d570c07e69e1ce73a3f91061730
+  MBProgressHUD: 2038dbcf3dce73215abed6001657043d53aa79a8
+  MDHTMLLabel: d93142f2e85551646bf25528c86b038e5c2bf404
+  Objection: 8176a996209cdcd23490c57d6e807a25faa8d54d
+  Reachability: 8e9635e3cb4f98e7f825e51147f677ecc694d0e7
+  REFormattedNumberField: 86318c549b60130a6d7a05abebb142f08f671319
+  RETableViewManager: 534104717ea10a71b203e80ee0dd3c4c79648be3
+  REValidation: a0033a582415848854e875dfcbe69c107de19f81
+  SDWebImage: 116e88633b5b416ea0ca4b334a4ac59cf72dd38d
+  SSKeychain: cc48bd3ad24fcd9125adb9e0d23dd50b8bbd08b9
+  SVPullToRefresh: d5161ebc833a38b465364412e5e307ca80bbb190
+
+COCOAPODS: 0.33.1
