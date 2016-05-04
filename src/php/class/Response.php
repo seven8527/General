@@ -12,7 +12,7 @@ class Response
 	public static function result($code, $message='', $data=array())
 	{
 		//$type = isset($_GET['format'])?$_GET['format']:'';
-		$type = $_GET['format']
+		$type = $_GET['format'];
 		if(!$type)
 		{
 			//var_dump($type);
@@ -74,7 +74,7 @@ class Response
 			'data' => $data,
 		);
 		header("Content-Type:text/xml");
-		$xml = "<?xml version='1.0' encoding= 'UTF-8'?>\n";
+		$xml = "<?xml version='1.0' encoding= 'UTF-8' ?>\n";
 		$xml .= "<root>\n";
 		$xml .= self::makeItem($result);		
 		$xml .="</root>";

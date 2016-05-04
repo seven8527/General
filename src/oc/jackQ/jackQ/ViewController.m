@@ -22,10 +22,21 @@
     manager.responseSerializer = [AFJSONResponseSerializer serializer];
     manager.requestSerializer  = [AFJSONRequestSerializer serializer];
     manager.responseSerializer.acceptableContentTypes = [NSSet setWithObject:@"text/html"];
-    [manager GET:@"http://app.seven.netai.net/myfirst.php?format=json" parameters:nil progress:nil success:^(NSURLSessionTask *task, id responseObject) {
+    [manager.requestSerializer setValue:@"application/x-www-form-urlencoded; charset=utf-8" forHTTPHeaderField:@"Content-Type"];
+//    [manager GET:@"http://app.seven.netai.net/myfirst.php?format=json" parameters:nil progress:nil success:^(NSURLSessionTask *task, id responseObject) {
+//        NSDictionary *dic = (NSDictionary *)responseObject;
+//        NSLog(@"JSON: %@", dic);
+//
+//    } failure:^(NSURLSessionTask *operation, NSError *error) {
+//        NSLog(@"Error: %@", error);
+//    }];
+    
+//    NSDictionary *dic = [NSDictionary dictionaryWithObjectsAndKeys:@"我是谁",@"username",@"123456",@"password", nil];
+    NSDictionary *parameters = @{@"username":@"我是谁",@"password":@"123456"};
+    [manager POST:@"http://app.seven.netai.net/login.php?format=json" parameters:parameters progress:nil success:^(NSURLSessionTask *task, id responseObject) {
         NSDictionary *dic = (NSDictionary *)responseObject;
         NSLog(@"JSON: %@", dic);
-
+        
     } failure:^(NSURLSessionTask *operation, NSError *error) {
         NSLog(@"Error: %@", error);
     }];

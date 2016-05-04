@@ -4,11 +4,11 @@ class DB{
 	
 	static private $_instance;
 	static private $_connet;
-	 private $db_config = array(
-		'host'=>'localhost',
-		'usr'=> 'root',
-		'pwd'=> 'Alex_owen0',
-		'db_name'=> 'persion',
+	private $db_config = array(
+		'host'=>'mysql13.000webhost.com',
+		'usr'=> 'a323234098_root',
+		'pwd'=> '123456',
+		'db_name'=> 'a323234098_seven',
 	);
 	
 	private function __construct()
