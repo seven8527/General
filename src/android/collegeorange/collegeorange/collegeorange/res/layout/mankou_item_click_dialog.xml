@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#10000000"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/chat_other"
+        android:orientation="vertical"
+        android:padding="0dp" >
+
+        <TextView
+            android:id="@+id/rename"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:gravity="center"
+            android:padding="16dp"
+            android:text="重命名"
+            android:textColor="#7C7878" />
+        <LinearLayout 
+            android:id="@+id/rebind"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@drawable/horizontal_line" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:gravity="center"
+            android:padding="16dp"
+            android:text="重   连"
+            android:textColor="#7C7878" />
+</LinearLayout>
+  
+   <LinearLayout 
+            android:id="@+id/delete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@drawable/horizontal_line" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:gravity="center"
+            android:padding="16dp"
+            android:text="删   除"
+            android:textColor="#7C7878" />
+    </LinearLayout>  
+    
+       <LinearLayout 
+            android:id="@+id/unbind"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">  
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@drawable/horizontal_line" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:gravity="center"
+            android:padding="16dp"
+            android:text="解   绑"
+            android:textColor="#7C7878" />
+          </LinearLayout> 
+       
+       
+   
+    
+       
+    </LinearLayout> 
+    
+
+</RelativeLayout>

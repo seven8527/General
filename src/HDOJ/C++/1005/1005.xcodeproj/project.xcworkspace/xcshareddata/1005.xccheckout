@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>C08E7B92-7C47-46A8-9DD2-B33A7BA79FA6</string>
+	<key>IDESourceControlProjectName</key>
+	<string>1005</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>8DF90253-CA24-4D78-AB6D-805CFF6A20EE</key>
+		<string>file://localhost/Users/owen/%E5%BF%AB%E7%9B%98/SVN_SRC</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>trunk/HDOJ/C++/1005/1005.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>8DF90253-CA24-4D78-AB6D-805CFF6A20EE</key>
+		<string>../../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>8DF90253-CA24-4D78-AB6D-805CFF6A20EE</key>
+		<string>file://localhost/Users/owen/%E5%BF%AB%E7%9B%98/SVN_SRC</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>file://localhost/Users/owen/%E5%BF%AB%E7%9B%98/SVN_SRC/trunk/HDOJ/C++/1005/1005.xcodeproj</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>8DF90253-CA24-4D78-AB6D-805CFF6A20EE</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryBranchesRelativeLocationKey</key>
+			<string>branches</string>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlRepositoryTagsRelativeLocationKey</key>
+			<string>tags</string>
+			<key>IDESourceControlRepositoryTrunkRelativeLocationKey</key>
+			<string>trunk</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>8DF90253-CA24-4D78-AB6D-805CFF6A20EE</string>
+			<key>IDESourceControlWCCName</key>
+			<string>SVN_SRC</string>
+		</dict>
+	</array>
+</dict>
+</plist>

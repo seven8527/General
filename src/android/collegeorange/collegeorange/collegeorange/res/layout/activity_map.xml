@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+
+<LinearLayout 
+    android:orientation="vertical" 
+    android:gravity="center_horizontal" 
+    android:layout_height="match_parent" 
+    android:layout_width="match_parent" 
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<!-- Login progress -->
+
+ <include
+        android:id="@+id/title_layout"
+        layout="@layout/title_layout" />
+ 
+ <RelativeLayout
+     android:layout_width="fill_parent"  
+     android:layout_height="fill_parent" >
+    
+     <com.baidu.mapapi.map.MapView  
+	    android:id="@+id/bmapView"  
+	    android:layout_width="fill_parent"  
+	    android:layout_height="fill_parent"  
+	    android:clickable="true" />
+
+     <Button
+         android:id="@+id/lost_record"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentBottom="true"
+         android:layout_centerHorizontal="true"
+         android:layout_marginBottom="22dp"
+         android:padding="10dp"
+         android:background="@drawable/btn_voice_start"
+         android:text="遗失历史" />
+     
+ </RelativeLayout>
+ 
+</LinearLayout>

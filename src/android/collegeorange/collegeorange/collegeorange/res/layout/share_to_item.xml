@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/share_item"
+    android:gravity="center_horizontal"
+    android:background="@drawable/popwindow_bg">
+    <TextView
+        android:id="@+id/share_text_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="选择您要分享的位置"
+        android:gravity="center_horizontal"
+        android:textSize="28sp"
+        android:visibility="gone"
+        />
+	
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        android:padding="30dp"
+         >
+		<Button
+            android:id="@+id/sharePengyouquan"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_weight="1"
+            android:background="@drawable/icon_res_download_moments"/>
+		<Button
+            android:id="@+id/shareSomeone"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="50dp"
+            android:background="@drawable/icon64_appwx_logo"/>
+    </LinearLayout>
+</LinearLayout>

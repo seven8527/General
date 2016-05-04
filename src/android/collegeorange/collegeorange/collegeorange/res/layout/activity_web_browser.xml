@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/title_bg"
+    >
+   
+     <RelativeLayout
+        android:id="@+id/title_layout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" >
+
+        <ImageView
+            android:id="@+id/title_back"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:paddingLeft="12dp"
+            android:paddingRight="10dp"
+            android:src="@drawable/btn_title_back" />         
+		
+        	
+          <TextView
+            android:id="@+id/title_middle1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"            
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textColor="@color/title_text"
+            android:textSize="@dimen/title_new_font_large"
+            android:layout_toLeftOf="@+id/title_right_view"
+            android:layout_toRightOf="@+id/title_back"
+            />
+        <Button
+           android:id="@+id/sharebtn"
+           android:layout_alignParentRight="true"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:background="@drawable/sharenew2"
+           /> 
+    </RelativeLayout>
+    
+   <LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:layout_below="@id/title_layout"
+     android:background="@color/white"
+     android:orientation="vertical">
+    <com.zhicheng.collegeorange.view.ProgressWebView
+        android:id="@+id/webview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+       
+         />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:textColor="@color/black_content"      
+        android:textSize="16sp" />
+  </LinearLayout>
+</RelativeLayout>

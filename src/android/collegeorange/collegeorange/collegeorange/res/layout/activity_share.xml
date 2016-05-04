@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black" >
+
+    <RelativeLayout
+        android:id="@+id/rl_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+         >
+
+        <include
+            android:id="@+id/title_layout"
+            layout="@layout/title_layout" />
+
+        <ScrollView
+            android:id="@+id/share_edit_scroll"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/title_layout"
+            android:background="@color/bg_gray"
+            android:overScrollMode="never" >
+
+            <LinearLayout
+                android:id="@+id/share_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:orientation="vertical" >
+                    
+                     <RelativeLayout
+			            android:layout_width="match_parent"
+			            android:layout_height="wrap_content"
+			            android:orientation="horizontal"
+			            android:visibility="visible" >
+			            
+                         
+                         <EditText
+	                        android:id="@+id/input_content"
+	                        android:layout_width="match_parent"
+	                        android:layout_height="wrap_content"
+	                        android:layout_alignParentLeft="true"
+	                        android:layout_marginBottom="5dip"
+	                        android:layout_marginLeft="20dip"
+	                        android:layout_marginRight="10dip"
+	                        android:layout_marginTop="20dip"
+	                        android:background="@null"
+	                        android:focusable="true"
+	                        android:gravity="top"
+	                        android:hint="这一刻想表达的内容..."
+	                        android:singleLine="false"
+	                        android:textColor="@color/black" />
+                         
+                       
+                    </RelativeLayout>
+
+                  
+
+                    <com.zhicheng.collegeorange.view.MyGridView
+                        android:id="@+id/gridView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="15dip"
+                        android:background="@null"
+                        android:listSelector="@android:color/transparent"
+                        android:numColumns="4"
+                        android:scrollbars="@null"
+                        android:verticalSpacing="1dp"
+                        android:visibility="gone" >
+                    </com.zhicheng.collegeorange.view.MyGridView>                 
+                    
+
+                    <RelativeLayout
+                        android:id="@+id/layout_location"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dip"
+                        android:layout_marginLeft="15dip"
+                        android:layout_marginRight="15dip" >
+
+                        <ImageView
+                            android:id="@+id/location_icon"
+                            android:layout_width="25dip"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:src="@drawable/icon_point_position" />
+
+                        <TextView
+                            android:id="@+id/location"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="10dip"
+                            android:layout_toRightOf="@id/location_icon"
+                            android:singleLine="true"
+                            android:hint="所在位置" />
+                    </RelativeLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@drawable/horizontal_line" />              
+                   
+                    
+                    <RelativeLayout
+			            android:id="@+id/layout_emoji"
+			            android:layout_width="match_parent"
+			            android:layout_height="wrap_content"
+			            android:visibility="gone" >
+			
+			            <include
+			                android:layout_width="fill_parent"
+			                android:layout_height="wrap_content"
+			                layout="@layout/custom_facerelativelayout" />
+			            
+			        </RelativeLayout>
+                    
+                </LinearLayout>
+
+                <!-- <RelativeLayout -->
+                <!-- android:id="@+id/remind_who_see_layout" -->
+                <!-- android:layout_width="match_parent" -->
+                <!-- android:layout_height="45dip" -->
+                <!-- android:layout_marginTop="20dip" -->
+                <!-- android:background="@drawable/list_bg" -->
+                <!-- > -->
+
+
+                <!-- <ImageView -->
+                <!-- android:id="@+id/range_icon" -->
+                <!-- android:layout_width="25dip" -->
+                <!-- android:layout_height="wrap_content" -->
+                <!-- android:layout_centerVertical="true" -->
+                <!-- android:layout_marginLeft="15dip" -->
+                <!-- android:src="@drawable/search" /> -->
+
+
+                <!-- <TextView -->
+                <!-- android:layout_width="wrap_content" -->
+                <!-- android:layout_height="wrap_content" -->
+                <!-- android:layout_centerVertical="true" -->
+                <!-- android:layout_marginLeft="10dip" -->
+                <!-- android:layout_toRightOf="@id/range_icon" -->
+                <!-- android:text="可见范围" /> -->
+                <!-- </RelativeLayout> -->
+
+
+                <!-- <RelativeLayout -->
+                <!-- android:id="@+id/visible_range_layout" -->
+                <!-- android:layout_width="match_parent" -->
+                <!-- android:layout_height="45dip" -->
+                <!-- android:background="@drawable/list_bg" -->
+                <!-- android:visibility="gone" > -->
+
+
+                <!-- <ImageView -->
+                <!-- android:id="@+id/remind_icon" -->
+                <!-- android:layout_width="25dip" -->
+                <!-- android:layout_height="wrap_content" -->
+                <!-- android:layout_centerVertical="true" -->
+                <!-- android:layout_marginLeft="15dip" -->
+                <!-- android:src="@drawable/viewpoint" /> -->
+
+
+                <!-- <TextView -->
+                <!-- android:layout_width="wrap_content" -->
+                <!-- android:layout_height="wrap_content" -->
+                <!-- android:layout_centerVertical="true" -->
+                <!-- android:layout_marginLeft="10dip" -->
+                <!-- android:layout_toRightOf="@id/remind_icon" -->
+                <!-- android:text="提醒谁看" /> -->
+                <!-- </RelativeLayout> -->
+            </LinearLayout>
+        </ScrollView>
+
+        <RelativeLayout
+            android:id="@+id/view_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@color/translucent"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+</RelativeLayout>

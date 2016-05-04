@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+	android:paddingLeft="16dp"
+	android:paddingRight="16dp"
+	android:paddingTop="10dp"
+	android:paddingBottom="10dp"
+	android:background="@color/white"
+	>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentLeft="true" >
+        
+        <TextView
+        android:id="@+id/device_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="设备名称"
+        android:textSize="18sp"
+        android:textColor="@drawable/txt_color_orange_to_gray" />
+        
+        <TextView
+        android:id="@+id/device_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:textSize="14sp"
+        android:text="设备地址"
+        android:textColor="@drawable/txt_color_orange_to_gray" />
+        
+    </LinearLayout>
+
+</RelativeLayout>

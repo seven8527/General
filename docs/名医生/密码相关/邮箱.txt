@@ -1,0 +1,6 @@
+你的企业邮箱账号：quanbowei@nethealth.cn 
+密码：huakang123 登陆地址：http://exmail.qq.com
+
+
+发送端口 465
+接收端口 993

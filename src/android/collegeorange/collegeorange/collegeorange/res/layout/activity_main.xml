@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true">
+
+    <com.zhicheng.collegeorange.view.MyViewPager
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+    <LinearLayout
+        android:id="@+id/bottom_tab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/commonBackground">
+        <include layout="@layout/icon_item_text_view"
+            android:id="@+id/iconItem1" />
+        <include layout="@layout/icon_item_text_view"
+            android:id="@+id/iconItem2" />
+        <include layout="@layout/icon_item_text_view"
+            android:id="@+id/iconItem3" />
+        <include layout="@layout/icon_item_text_view"
+            android:id="@+id/iconItem4" />
+    </LinearLayout>
+
+</LinearLayout>

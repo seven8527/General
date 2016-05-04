@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"    
+    android:fitsSystemWindows="true">
+    
+    <include
+        android:id="@+id/title_layout"
+        layout="@layout/title_layout" />
+    
+    <ViewFlipper
+        android:id="@+id/mflipper"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        android:orientation="vertical"
+        android:background="#e2e2e2" >
+
+        <!-- <LinearLayout
+            android:id="@+id/item_scan_list"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:background="@color/white"
+            android:padding="4dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="设备绑定" />
+        </LinearLayout> -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/chat_other" >
+
+            <RelativeLayout
+                android:id="@+id/item_bind_list"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center_vertical"
+                android:padding="4dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:text="设备列表" />
+                
+                <ImageView 
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/list_page_btn" />
+                
+            </RelativeLayout>
+
+            <View android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/line_color"/>
+                        
+            <RelativeLayout
+                android:id="@+id/item_lost_list"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center_vertical"
+                android:padding="4dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:text="地图记录" />
+                
+                <ImageView 
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/list_page_btn" />
+                
+            </RelativeLayout>
+            
+
+            <View android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/line_color"/>
+                                   
+            <RelativeLayout
+                android:id="@+id/item_camera"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center_vertical"
+                android:padding="4dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:text="相机" />
+                
+                <ImageView 
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/list_page_btn" />
+                
+            </RelativeLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+     <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" 
+        android:background="#e2e2e2">
+        
+         <RelativeLayout 
+            android:id="@+id/add_device_layout"
+		    android:layout_width="match_parent"
+		    android:layout_alignParentBottom="true"
+		    android:layout_height="50dp"
+			android:paddingLeft="26dp"
+			android:paddingRight="26dp"
+			android:paddingTop="10dp"
+			android:paddingBottom="10dp"
+			android:background="@color/white"
+			>
+		
+		    <TextView
+		        android:id="@+id/textView1"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_centerHorizontal="true"
+		        android:layout_centerVertical="true"
+		        android:text="添加设备" />
+		
+		</RelativeLayout>
+
+        <ListView
+            android:id="@+id/bind_list"
+            android:layout_above="@+id/add_device_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@color/transparent" >
+        </ListView>
+
+    </RelativeLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#e2e2e2" >
+
+        <ListView
+            android:id="@+id/scan_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+        </ListView>
+
+    </LinearLayout>
+    
+    
+    
+	</ViewFlipper>
+</LinearLayout>

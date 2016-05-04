@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/dialog_bg"
+        android:orientation="vertical"
+        android:padding="15dp" >
+
+        <TextView
+            android:id="@+id/name_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="群聊名称"
+            android:textColor="@color/text_black"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="30dp"
+            android:layout_marginTop="20dp"
+            android:background="@null"
+            android:cursorVisible="true"
+            android:gravity="center_vertical|left"
+            android:maxLines="3"
+            android:orientation="vertical"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="5dp"
+            android:textColor="@color/text_black"
+            android:textCursorDrawable="@null"
+            android:textSize="16sp"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            />
+
+        <LinearLayout
+            android:id="@+id/bloodLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:orientation="vertical" >
+
+            <EditText
+                android:id="@+id/edit1"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:background="@null"
+                android:cursorVisible="true"
+                android:gravity="center_vertical|left"
+                android:hint="高血糖警戒值"
+                android:maxLines="3"
+                android:orientation="vertical"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="5dp"
+                android:inputType="number"
+                android:textColor="@color/text_black"
+                android:textCursorDrawable="@null"
+                android:textColorHint="@color/black_content"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/orange"
+                android:paddingTop="0dp" />
+
+            <EditText
+                android:id="@+id/edit2"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:background="@null"
+                android:cursorVisible="true"
+                android:textColorHint="@color/black_content"
+                android:gravity="center_vertical|left"
+                android:hint="低血糖警戒值"
+                android:maxLines="3"
+                android:orientation="vertical"
+                android:paddingLeft="5dp"
+                android:inputType="number"
+                android:paddingRight="5dp"
+                android:paddingTop="5dp"
+                android:textColor="@color/text_black"
+                android:textCursorDrawable="@null"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+        
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/orange"
+            android:paddingTop="0dp" />
+
+        <RadioGroup
+            android:id="@+id/sex"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical"
+            android:visibility="gone" >
+
+            <RadioButton
+                android:id="@+id/man"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/list_items_bg"
+                android:button="@null"
+                android:drawableRight="@drawable/radio_select_bg"
+                android:gravity="center_vertical"
+                android:paddingLeft="20dip"
+                android:paddingRight="20dip"
+                android:text="男"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:background="@drawable/seekbar_progress" />
+
+            <RadioButton
+                android:id="@+id/women"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/list_items_bg"
+                android:button="@null"
+                android:drawableRight="@drawable/radio_select_bg"
+                android:gravity="center_vertical"
+                android:paddingLeft="20dip"
+                android:paddingRight="20dip"
+                android:text="女"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+        </RadioGroup>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal" >
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="38dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="3dp"
+                android:layout_weight="1"
+                android:background="@drawable/btn_cancel_bg"
+                android:gravity="center"
+                android:onClick="onCancel"
+                android:text="@string/my_app_cancel"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="38dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="3dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_change_orange_color"
+                android:gravity="center"
+                android:onClick="onOK"
+                android:text="@string/rec_delete_yes"
+                android:textColor="@color/background_item_text"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

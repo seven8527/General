@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>4F4267FF-6615-4F62-B078-7890F2B62CC8</string>
+	<key>IDESourceControlProjectName</key>
+	<string>_9.15.1_printMain</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>900C8D71-440C-459E-9376-98CDC199AE0B</key>
+		<string>file://localhost/Users/owen/%E5%BF%AB%E7%9B%98/SVN_SRC</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>trunk/C/_9.15.1_printMain/_9.15.1_printMain.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>900C8D71-440C-459E-9376-98CDC199AE0B</key>
+		<string>../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>900C8D71-440C-459E-9376-98CDC199AE0B</key>
+		<string>file://localhost/Users/owen/%E5%BF%AB%E7%9B%98/SVN_SRC</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>file://localhost/Users/owen/%E5%BF%AB%E7%9B%98/SVN_SRC/trunk/C/_9.15.1_printMain/_9.15.1_printMain.xcodeproj</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>900C8D71-440C-459E-9376-98CDC199AE0B</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryBranchesRelativeLocationKey</key>
+			<string>branches</string>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlRepositoryTagsRelativeLocationKey</key>
+			<string>tags</string>
+			<key>IDESourceControlRepositoryTrunkRelativeLocationKey</key>
+			<string>trunk</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>900C8D71-440C-459E-9376-98CDC199AE0B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>SVN_SRC</string>
+		</dict>
+	</array>
+</dict>
+</plist>

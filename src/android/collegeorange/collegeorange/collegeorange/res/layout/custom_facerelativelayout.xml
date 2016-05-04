@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/FaceRelativeLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >       
+
+        <RelativeLayout
+            android:id="@+id/bottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/chat_input_bg"
+            android:paddingTop="8dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp" 
+            android:paddingBottom="8dp">
+
+            <ImageView
+                android:id="@+id/layout_switch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:src="@drawable/daxiao"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/chat_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/layout_switch"
+                android:src="@drawable/to_voice"
+                android:visibility="gone" />
+
+            <RelativeLayout
+                android:id="@+id/send_layout"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true" >
+
+                <Button
+                    android:id="@+id/btn_iamge_send"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/add_pic_btn_bg"
+                    android:onClick="doSendImage" />
+
+                <Button
+                    android:id="@+id/btn_send"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/selector_voice_send"
+                    android:onClick="doSend" />
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/expression_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_toLeftOf="@+id/send_layout"
+                android:background="@drawable/chat_icon_smiles"
+                android:visibility="gone" />
+
+            <EditText
+                android:id="@+id/input"
+                style="@style/MyEditView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="8dp"
+                android:minHeight="37dp"
+                android:layout_toLeftOf="@+id/expression_layout"
+                android:layout_toRightOf="@+id/chat_icon"
+                android:background="@drawable/btn_voice_start"
+                android:focusable="true"
+                android:gravity="center_vertical"
+                android:inputType="textMultiLine"
+                android:maxLength="2000"
+                android:maxLines="3"
+                android:paddingBottom="8dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="8dp"
+                android:textColor="@color/black_content"
+                android:visibility="visible" />
+          
+        </RelativeLayout>
+        
+    </RelativeLayout>
+
+</RelativeLayout>

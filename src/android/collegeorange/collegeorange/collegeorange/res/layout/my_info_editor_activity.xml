@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/bg_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/title_bg"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp" >
+
+            <LinearLayout 
+                android:layout_width="match_parent"
+                android:layout_height="2px"
+                android:background="#dfdfdf"
+                android:layout_alignParentBottom="true"
+                ></LinearLayout>
+            <ImageView
+                android:id="@+id/back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="8dp"
+                android:paddingLeft="12dp"
+                android:paddingRight="30dp"
+                android:paddingTop="8dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/btn_title_back" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="@string/info_title"
+                android:textColor="@color/title_text"
+                android:textSize="@dimen/title_new_font_large" />
+
+            <TextView
+                android:id="@+id/save_bnt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:paddingBottom="8dp"
+                android:paddingLeft="30dp"
+                android:paddingRight="16dp"
+                android:paddingTop="8dp"
+                android:shadowColor="#ff575757"
+                android:shadowDx="0"
+                android:shadowDy="1"
+                android:shadowRadius="1"
+                android:text="@string/submit"
+                android:textColor="@color/title_text_right"
+                android:textSize="@dimen/title_new_font_middle" />
+        </RelativeLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/bg_gray"
+            android:overScrollMode="never"
+            android:scrollbars="@null" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <RelativeLayout
+                    android:id="@+id/avatar_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/bg_color_write_to_grey"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:paddingTop="10dp" >
+
+                    <TextView
+                        android:id="@+id/user_logo_text"
+                        android:layout_width="70dp"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:text="头像"
+                        android:textColor="@color/market_color"
+                        android:textSize="14sp" />
+
+                    <ImageView
+                        android:id="@+id/right_arrow"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/list_page_btn" />
+
+                    <ImageView
+                        android:id="@+id/avatar"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="5dp"
+                        android:layout_toLeftOf="@+id/right_arrow"
+                        android:background="@drawable/user_logo" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:layout_marginLeft="2dp"
+                    android:background="@drawable/horizontal_line" />
+
+                <RelativeLayout
+                    android:id="@+id/nikename_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_color_write_to_grey"
+                    android:padding="16dp" >
+
+                    <TextView
+                        android:id="@+id/user_name_text"
+                        android:layout_width="70dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/info_name"
+                        android:textColor="@color/market_color"
+                        android:textSize="14sp" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/user_name_text" >
+
+                        <TextView
+                            android:id="@+id/nikname_text"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginRight="5dp"
+                            android:layout_toLeftOf="@+id/newt_page_view1"
+                            android:ellipsize="end"
+                            android:gravity="center_vertical|right"
+                            android:lines="1"  
+                                                     
+                            android:textColor="@color/catalog_text_color"
+                            android:textSize="16sp" />
+
+                        <ImageView
+                            android:id="@+id/newt_page_view1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:src="@drawable/list_page_btn" />
+                    </RelativeLayout>
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:layout_marginLeft="2dp"
+                    android:background="@drawable/horizontal_line" />
+
+                <RelativeLayout
+                    android:id="@+id/signature_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_color_write_to_grey"
+                    android:padding="16dp" >
+
+                    <TextView
+                        android:id="@+id/user_signature_text"
+                        android:layout_width="70dp"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:lines="1"
+                        android:text="@string/signature_tag"
+                        android:textColor="@color/market_color"
+                        android:textSize="14sp" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/user_signature_text"
+                         >
+
+                        <TextView
+                            android:id="@+id/signature_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginRight="5dp"
+                            android:layout_toLeftOf="@+id/newt_page_view2"
+                            android:gravity="center_vertical"
+                           
+                            android:textColor="@color/catalog_text_color"
+                            android:textSize="16sp" />
+
+                        <ImageView
+                            android:id="@+id/newt_page_view2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:src="@drawable/list_page_btn" />
+                    </RelativeLayout>
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:layout_marginLeft="2dp"
+                    android:background="@drawable/horizontal_line" />
+
+                <RelativeLayout
+                    android:id="@+id/sex_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_color_write_to_grey"
+                    android:padding="16dp" >
+
+                    <TextView
+                        android:id="@+id/user_sex_text"
+                        android:layout_width="70dp"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:lines="1"
+                        android:text="@string/info_sex"
+                        android:textColor="@color/market_color"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/sex_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="5dp"
+                        android:layout_toLeftOf="@+id/newt_page_view3"
+                        android:layout_toRightOf="@+id/user_sex_text"
+                        android:ellipsize="end"
+                        android:gravity="right"
+                        android:lines="1"
+                        android:textColor="@color/catalog_text_color"
+                        android:textSize="16sp" />
+
+                    <ImageView
+                        android:id="@+id/newt_page_view3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/list_page_btn" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:layout_marginLeft="2dp"
+                    android:background="@drawable/horizontal_line" />
+
+                <RelativeLayout
+                    android:id="@+id/age_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_color_write_to_grey"
+                    android:padding="16dp"
+                    android:visibility="gone" >
+
+                    <TextView
+                        android:id="@+id/user_age_text"
+                        android:layout_width="70dp"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:lines="1"
+                        android:text="@string/info_age"
+                        android:textColor="@color/market_color"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/age_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="5dp"
+                        android:layout_toLeftOf="@+id/newt_page_view4"
+                        android:layout_toRightOf="@+id/user_age_text"
+                        android:ellipsize="end"
+                        android:gravity="right"
+                        android:lines="1"
+                        android:textColor="@color/catalog_text_color"
+                        android:textSize="16sp" />
+
+                    <ImageView
+                        android:id="@+id/newt_page_view4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/list_page_btn" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:layout_marginLeft="2dp"
+                    android:visibility="gone"
+                    android:background="@drawable/horizontal_line"
+                   />
+
+                <RelativeLayout
+                    android:id="@+id/city_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_color_write_to_grey"
+                    android:padding="16dp" >
+
+                    <TextView
+                        android:id="@+id/user_city_text"
+                        android:layout_width="70dp"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:lines="1"
+                        android:text="@string/info_school"
+                        android:textColor="@color/market_color"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/city_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="5dp"
+                        android:layout_toLeftOf="@+id/newt_page_view5"
+                        android:layout_toRightOf="@+id/user_city_text"
+                        android:ellipsize="end"
+                        android:gravity="right"
+                        android:maxLines="2"
+                        android:textColor="@color/catalog_text_color"
+                        android:textSize="16sp" />
+
+                    <ImageView
+                        android:id="@+id/newt_page_view5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/list_page_btn" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:layout_marginLeft="2dp"
+                    android:background="@drawable/horizontal_line" />
+
+                <RelativeLayout
+                    android:id="@+id/hobby_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_color_write_to_grey"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:padding="16dp"
+                    android:visibility="gone" >
+
+                    <TextView
+                        android:id="@+id/hobby_textview"
+                        android:layout_width="70dp"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:lines="1"
+                        android:text="@string/info_hobbies"
+                        android:textColor="@color/black_tag"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/hobby_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="5dp"
+                        android:layout_toLeftOf="@+id/newt_page_view6"
+                        android:layout_toRightOf="@+id/hobby_textview"
+                        android:gravity="right"
+                        android:textColor="@color/black_content"
+                        android:textSize="16sp" />
+
+                    <ImageView
+                        android:id="@+id/newt_page_view6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/bg_nextpage_btn" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:layout_marginLeft="2dp"
+                    android:background="@drawable/horizontal_line" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/translucent"
+        android:visibility="gone" />
+
+</RelativeLayout>

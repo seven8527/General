@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/commonMargin"
+    android:layout_marginRight="@dimen/commonMargin"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+    <TextView
+        android:layout_width="@dimen/commonCircle"
+        android:layout_height="@dimen/commonCircle"
+        android:padding="@dimen/commonPadding"
+        android:textAlignment="center"
+        android:text="智"
+        android:textColor="@color/white"
+        android:background="@drawable/circle_orange_shape"
+        android:onClick="onCircleItemClicked" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/commonTopMargin"
+        android:textAlignment="center"
+        android:text="打折"/>
+</LinearLayout>

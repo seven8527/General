@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/layout_flipper"
+        android:layout_width="match_parent"
+        android:layout_height="150dip" >
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/viewPager"
+            android:layout_width="fill_parent"
+            android:layout_height="150dip"
+            android:focusable="true" >
+        </android.support.v4.view.ViewPager>
+
+       <!--  <ImageView
+        android:id="@+id/img_guandian"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        android:background="@drawable/lepao_icon" /> -->
+
+		<LinearLayout
+    	    android:id="@+id/indicator_ayout"
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"
+    	    android:orientation="horizontal"
+    	    android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"  
+           	android:layout_marginBottom="10dp"          
+    	     >
+    	    
+    	</LinearLayout>
+
+
+      <!--   <RadioGroup
+            android:id="@+id/raGrop_indicator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginRight="10dp"
+            android:checkedButton="@+id/indicator0"
+            android:orientation="horizontal" 
+            android:visibility="gone">
+
+            <RadioButton
+                android:id="@+id/indicator0"
+                android:layout_width="7dp"
+                android:layout_height="7dp"
+                android:layout_marginBottom="7dip"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:button="@null"
+                android:clickable="false"
+                android:enabled="false" />
+        </RadioGroup> -->
+
+        <TextView
+            android:id="@+id/pager_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="#33000000"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:padding="10dp"
+            android:textColor="@color/white"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@drawable/horizontal_line" />    
+
+</LinearLayout>

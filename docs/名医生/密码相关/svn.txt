@@ -1,0 +1,9 @@
+svn用户名：quanbowei ， 密码：DhF@16
+
+svn://119.255.49.29/xadev/UI-library/APP资源图
+
+svn://119.255.49.29/xadev/new/code/android/trunk/
+
+svn://119.255.49.29/dev/mobile/ios_patient/program
+svn://119.255.49.29/dev/docs/mobile/android
+svn://119.255.49.29/dev/mobile/android_patient/program

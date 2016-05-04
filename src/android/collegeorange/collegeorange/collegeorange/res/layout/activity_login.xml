@@ -1,0 +1,98 @@
+<?xml version="1.0"?>
+
+<LinearLayout 
+    android:orientation="vertical" 
+    android:gravity="center_horizontal" 
+    android:layout_height="match_parent" 
+    android:layout_width="match_parent" 
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<!-- Login progress -->
+
+ <include
+        android:id="@+id/title_layout"
+        layout="@layout/title_layout" />
+
+
+<ProgressBar 
+    android:layout_height="wrap_content" 
+    android:layout_width="wrap_content" 
+    android:visibility="gone" 
+    android:layout_marginBottom="8dp" 
+    style="?android:attr/progressBarStyleLarge" 
+    android:id="@+id/login_progress"/>
+
+
+<ScrollView android:layout_height="match_parent" 
+    android:layout_width="match_parent" 
+    android:layout_marginTop="@dimen/activity_vertical_margin"
+    android:id="@+id/login_form">
+
+
+<LinearLayout android:orientation="vertical"
+     android:gravity="center_horizontal" 
+     android:layout_height="wrap_content" 
+     android:layout_width="match_parent" 
+     android:id="@+id/email_login_form">
+
+	<EditText 
+	    android:layout_height="wrap_content" 
+	    android:layout_width="match_parent" 
+	    android:id="@+id/email" 
+	    android:singleLine="true" 
+	    android:maxLines="1" 
+	    android:inputType="phone" 
+	    android:hint="@string/phone_number" 
+	  />
+	
+	
+	<EditText 
+	    android:layout_height="wrap_content" 
+	    android:layout_width="match_parent" 
+	    android:id="@+id/password" 
+	    android:singleLine="true" 
+	    android:maxLines="1" 
+	    android:inputType="textPassword" 
+	    android:hint="@string/pwd_text" 
+	    android:imeOptions="actionUnspecified" 
+	    android:imeActionLabel="@string/action_sign_in_short" 
+	    android:imeActionId="@+id/login"/>
+
+
+	<Button android:layout_height="wrap_content" 
+	    android:layout_width="match_parent" 
+	    style="?android:textAppearanceSmall" 
+	    android:id="@+id/email_sign_in_button" 
+	    android:textStyle="bold" 
+	    android:text="@string/action_sign_in" 
+	    android:layout_marginTop="16dp"/>
+
+
+	<LinearLayout android:orientation="horizontal" 
+	    android:layout_height="wrap_content" 
+	    android:layout_width="wrap_content" 
+	    android:layout_marginTop="16dp">
+	
+		<TextView android:layout_height="wrap_content" 
+		    android:layout_width="wrap_content" 
+		    android:id="@+id/register_page" 
+		    android:text="@string/go_register_page"/>
+		
+		<TextView android:layout_height="wrap_content" 
+		    android:layout_width="wrap_content" 
+		    android:text=" | "
+		    android:visibility="gone"/>
+		
+		<TextView android:layout_height="wrap_content" 
+		    android:layout_width="wrap_content" 
+		    android:id="@+id/find_pwd_page" 
+		    android:text="@string/find_pwd_page"
+		    android:visibility="gone"/>
+	
+	</LinearLayout>
+
+</LinearLayout>
+
+</ScrollView>
+
+</LinearLayout>

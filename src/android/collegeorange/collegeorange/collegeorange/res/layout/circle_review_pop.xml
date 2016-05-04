@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >    
+    
+	<LinearLayout 
+	    android:layout_width="@dimen/circle_pop_width"
+	    android:layout_height="@dimen/circle_pop_height"
+	    android:orientation="horizontal"
+	    android:background="@drawable/pop_zan_bg" >    
+	
+	    <LinearLayout
+	        android:id="@+id/zan_text_layout"
+	        android:layout_width="0dp"
+	        android:layout_height="match_parent"
+	        android:layout_weight="1"
+	        android:orientation="horizontal"
+	        android:gravity="center" >
+	        
+	        <ImageView 
+	            android:id="@+id/zan_text_icon"
+		        android:layout_width="wrap_content"
+		        android:layout_height="match_parent"
+		        android:src="@drawable/btn_cicle_zan"
+		        />
+	        
+	        <TextView
+		        android:id="@+id/zan_text"
+		        android:layout_width="wrap_content"
+		        android:layout_height="match_parent"
+		        android:layout_marginLeft="5dp"
+		        android:gravity="center"
+		        android:textColor="#ffffff"
+			    android:textSize="14sp"
+		        android:text="赞" />
+	        
+	    </LinearLayout>
+	
+<!-- 	    <View  -->
+<!-- 	        android:layout_width="1px" -->
+<!-- 		    android:layout_height="match_parent" -->
+<!-- 		    android:layout_marginTop="5dp" -->
+<!-- 		    android:layout_marginBottom="5dp" -->
+<!-- 		    android:background="#000000" -->
+<!-- 	        /> -->
+	    
+	    <LinearLayout
+	        android:id="@+id/comment_text_layout"
+	        android:layout_width="0dp"
+	        android:layout_height="match_parent"
+	        android:layout_weight="1"
+	        android:gravity="center" >
+	        
+	        <TextView
+		        android:id="@+id/comment_text"
+		        android:layout_width="wrap_content"
+		        android:layout_height="match_parent"
+		        android:gravity="center"
+		        android:drawablePadding="5dp"
+		        android:drawableLeft="@drawable/btn_circle_review"
+		        android:textColor="#ffffff"
+			    android:textSize="14sp"
+		        android:text="评论" />
+	    </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

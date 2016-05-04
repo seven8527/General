@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="TasksCompletedView">
+        <attr name="radius" format="dimension" />
+        <!-- <attr name="strokeWidth" format="dimension"/> -->
+        <attr name="circleColor" format="color" />
+        <attr name="ringColor" format="color" />
+    </declare-styleable>
+    <declare-styleable name="TextSport">
+        <attr name="content" format="string" />
+        <attr name="textColor" format="color" />
+        <attr name="textUnit" format="string" />
+    </declare-styleable>
+    <declare-styleable name="RoundProgressBar">
+        <attr name="roundColor" format="color" />
+        <attr name="roundProgressColor" format="color" />
+        <attr name="roundWidth" format="dimension"></attr>
+        <attr name="textSize" format="dimension" />
+        <attr name="max" format="integer"></attr>
+        <attr name="textIsDisplayable" format="boolean"></attr>
+        <attr name="style">
+            <enum name="STROKE" value="0"></enum>
+            <enum name="FILL" value="1"></enum>
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="ArcProgress">
+        <attr name="arc_progress" format="integer" />
+        <attr name="arc_secondary_progress" format="integer"></attr>
+        <attr name="arc_angle" format="float" />
+        <attr name="arc_stroke_width" format="dimension" />
+        <attr name="arc_max" format="integer" />
+        <attr name="arc_unfinished_color" format="color" />
+        <attr name="arc_finished_color" format="color" />
+        <attr name="arc_text_size" format="dimension" />
+        <attr name="arc_text_color" format="color" />
+        <attr name="arc_suffix_text" format="string" />
+        <attr name="arc_suffix_text_size" format="dimension" />
+        <attr name="arc_suffix_text_padding" format="dimension" />
+        <attr name="arc_bottom_text" format="string" />
+        <attr name="arc_bottom_text_size" format="dimension" />
+        <attr name="arc_finished_secondary_color" format="color"></attr>
+        <attr name="arc_suffix_text_color" format="color"></attr>
+    </declare-styleable>
+    <declare-styleable name="Emojicon">
+        <attr name="emojiconSize" format="dimension" />
+        <attr name="emojiconTextStart" format="integer" />
+        <attr name="emojiconTextLength" format="integer" />
+        <attr name="emojiconUseSystemDefault" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="ToggleButton">
+        <attr name="borderWidth" format="dimension"></attr>
+        <attr name="offBorderColor" format="reference|color"></attr>
+        <attr name="offColor" format="reference|color"></attr>
+        <attr name="onColor" format="reference|color"></attr>
+        <attr name="spotColor" format="reference|color"></attr>
+    </declare-styleable>
+    <declare-styleable name="SwipeLayout">
+        <attr name="drag_edge" format="enum">
+            <enum name="left" value="0" />
+            <enum name="right" value="1" />
+            <enum name="top" value="2" />
+            <enum name="bottom" value="3" />
+        </attr>
+        <attr name="horizontalSwipeOffset" format="dimension" />
+        <attr name="verticalSwipeOffset" format="dimension" />
+        <attr name="show_mode" format="enum">
+            <enum name="lay_down" value="0" />
+            <enum name="pull_out" value="1" />
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="MovieRecorderView">
+
+        <!-- 开始是否打开摄像头 -->
+        <attr name="is_open_camera" format="boolean" />
+        <!-- 一次拍摄最长时间 -->
+        <attr name="record_max_time" format="integer" />
+        <!-- 视频分辨率宽度 -->
+        <attr name="video_width" format="integer" />
+        <!-- 视频分辨率高度 -->
+        <attr name="video_height" format="integer" />
+    </declare-styleable>
+    <declare-styleable name="ButtonBarContainerTheme">
+        <attr name="metaButtonBarStyle" format="reference" />
+        <attr name="metaButtonBarButtonStyle" format="reference" />
+    </declare-styleable>
+    <declare-styleable name="Circle">
+        <attr name="circleBackground" format="integer" />
+        <attr name="firstChildPosition">
+            <enum name="East" value="0" />
+            <enum name="SouthEast" value="45" />
+            <enum name="South" value="90" />
+            <enum name="SouthWest" value="150" />
+            <enum name="West" value="180" />
+            <enum name="North" value="270" />
+        </attr>
+        <attr name="rotateToCenter" format="boolean" />
+        <attr name="isRotating" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="CircleImageView">
+        <attr name="name" format="string" />
+    </declare-styleable>
+    
+    <declare-styleable name="CustomAudioIcon">
+        <attr name="type">
+            <enum name="start" value="0" />            
+            <enum name="forward" value="1" />
+            <enum name="backward" value="2" />
+            <enum name="exit" value="3" />
+            <enum name="mode" value="4" />
+        </attr>
+        <attr name="color" format="color"/>
+    </declare-styleable>
+    
+    <attr name="cropImageStyle" format="reference" />
+    
+    <declare-styleable name="CropImageView">
+        <attr name="highlightColor" format="reference|color" />
+        <attr name="showThirds" format="boolean" />
+        <attr name="showCircle" format="boolean" />
+        <attr name="showHandles">
+            <enum name="changing" value="0" />
+            <enum name="always" value="1" />
+            <enum name="never" value="2" />
+        </attr>
+    </declare-styleable>
+</resources>

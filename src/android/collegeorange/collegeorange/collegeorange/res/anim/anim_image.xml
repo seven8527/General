@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:interpolator="@android:anim/accelerate_interpolator"
+    android:shareInterpolator="true" >
+
+    <translate
+        android:duration="180"
+        android:fromYDelta="-20%"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:repeatCount="infinite"
+        android:repeatMode="reverse"
+        android:toYDelta="0%" />
+<!-- 这个属性是定义动画播放完后再尾向头播放="" -->
+</set>

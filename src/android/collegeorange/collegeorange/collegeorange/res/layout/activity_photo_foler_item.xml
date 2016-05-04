@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/list_items_bg"
+        android:gravity="center_vertical" >
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_alignParentTop="true"
+            android:background="@color/divider_line_color" />
+
+        <View
+            android:layout_width="1px"
+            android:layout_height="80dp"
+            android:layout_alignParentLeft="true"
+            android:background="@color/divider_line_color" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="@dimen/activity_vertical_small_margin" >
+
+            <RelativeLayout
+                android:id="@+id/img_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp" >
+
+                <ImageView
+                    android:id="@+id/photo_item_img"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/user_logo" />
+
+                <ImageView
+                    android:id="@+id/firend_img"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:background="@drawable/lvjing"
+                    android:scaleType="fitXY" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dip"
+                android:layout_toRightOf="@id/img_layout"
+                android:gravity="center_vertical" >
+
+                <TextView
+                    android:id="@+id/photo_foter_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="top"
+                    android:lines="1"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/photo_number"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/photo_foter_name"
+                    android:layout_marginTop="10dip"
+                    android:lines="1"
+                    android:textColor="@color/catalog_text_color"
+                    android:textSize="10sp" />
+            </RelativeLayout>
+              <ImageView
+                    android:id="@+id/choose"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/selector_folder"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="10dip" />
+            
+        </RelativeLayout>
+
+        <View
+            android:layout_width="1px"
+            android:layout_height="80dp"
+            android:layout_alignParentRight="true"
+            android:background="@color/divider_line_color" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/divider_line_color" />
+    </RelativeLayout>
+
+</LinearLayout>

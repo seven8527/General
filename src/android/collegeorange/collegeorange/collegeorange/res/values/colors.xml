@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#3F51B5</color>
+	<color name="colorPrimaryDark">#303F9F</color>
+	<color name="colorAccent">#FF4081</color>
+	<color name="white">#FFFFFFFF</color>
+	<color name="blue">#FF0059FF</color>
+	<color name="orange">#FFFF6A00</color>
+	<color name="commonBackground">#eeeeee</color>
+	<color name="commonListViewDivider">#50383435</color>
+	<color name="orange_tab_text">#FF9000</color>
+    <color name="blue_tab_text">#00b1ff</color>
+    
+    <color name="translucent">#99000000</color>
+    <color name="little_transparent">#10000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="transparent_orage">#60ffa563</color>
+    <color name="default_bg">#f3f3f3</color>
+    <color name="background_item_text">#ffffff</color>
+    <color name="line_color">#e2e1e4</color>
+    <color name="catalog_text_color">#989898</color>
+    <color name="item_text_color">#292929</color>
+    <color name="color_red">#f11165</color>
+    <color name="color_blue">#278cfd</color>
+    <color name="market_color">#000000</color>
+    <color name="market_bg">#f3f8fc</color>
+
+    <drawable name="list_divider">@color/line_color</drawable>
+    <drawable name="green_card_bg_normal">#cc8ebb04</drawable>
+    <drawable name="green_card_bg_pressed">#ff8ebb04</drawable>
+    <drawable name="blue_card_bg_normal">#cc29aeec</drawable>
+    <drawable name="blue_card_bg_pressed">#ff29aeec</drawable>
+    <drawable name="scan_button_bg_normal">#fc5c0e</drawable>
+    <drawable name="scan_button_bg_pressed">#f05518</drawable>
+    <drawable name="transparent_drawable">@color/transparent</drawable>
+    <drawable name="normal_btn_bg_pressed">#1ca1f6</drawable>
+    <drawable name="normal_btn_bg_normal">#6fc6fd</drawable>
+
+    <!-- bailu -->
+    <!-- <color name="orange">#f36a27</color> -->
+    <color name="orange1">#a18927</color>
+    <color name="text_grey">#cacaca</color>
+    <color name="text_blue">#00a7e2</color>
+    <color name="deep_blue">#0078ae</color>
+    <color name="gray_bg">#eaeaea</color>
+    <color name="gray_circle">#EFEEEE</color>
+    <color name="black">#000</color>
+    <color name="grey">#555</color>
+    <color name="text_black">#333333</color>
+    <color name="point_voice_bg">#BEB7B1</color>
+    <color name="hint_grey">#ffa0a0a0</color>
+
+    <drawable name="more_relative_selected">#e8e8e8</drawable>
+    <drawable name="more_relative_normal">#ffffff</drawable>
+    <drawable name="send_captcha_bg">#c6c6c6</drawable>
+    <drawable name="nosend_captcha_bg">#ff9b19</drawable>
+
+    <color name="update_progress_bg">#D2D2D2</color>
+    <color name="update_progress">#1ad411</color>
+    <color name="update_version_txt">#333333</color>
+    <color name="update_progress_icon">#EA6916</color>
+    <color name="update_list_item_line">#e0e0e0</color>
+    <color name="binding_txt">#7b7b7b</color>
+    <color name="tab_bg_nol">#332e2e</color>
+    <color name="download_text">#838383</color>
+    <color name="orange_bg">#ea6916</color>
+    <color name="rec_time">#aeaeae</color>
+    <color name="play_bg">#f9f9f7</color>
+    <color name="seekbar_bg">#c0c0c0</color>
+    <color name="lever">#ff9217</color>
+
+    <drawable name="cancel_nor">#cccccc</drawable>
+    <drawable name="cnacel_pre">#cecece</drawable>
+    <drawable name="yes_nor">#fe6a27</drawable>
+    <drawable name="yes_pre">#fc5c0e</drawable>
+    <drawable name="right_bt">#d65808</drawable>
+
+    <color name="sport_red">#e65101</color>
+    <color name="sport_org">#ff8500</color>
+    <color name="sport_green">#23b14f</color>
+    <color name="sport_yellow">#ffc000</color>
+
+    <drawable name="dialog_cancel_normal">#dcdcdc</drawable>
+    <drawable name="dialog_cancel_seleted">#cecece</drawable>
+    <drawable name="dialog_ok_normal">#f36a27</drawable>
+    <drawable name="dialog_ok_seleted">#fc5c0e</drawable>
+
+    <color name="dialog_cancel_txt">#8b8b8b</color>
+    <color name="dialog_ok_txt">#ffffff</color>
+
+    <!-- zxing -->
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="result_view">#b0000000</color>
+    <color name="possible_result_points">#c0ffff00</color>
+    <color name="viewfinder_frame">#ff000000</color>
+    <color name="viewfinder_laser">#ffff0000</color>
+    <color name="viewfinder_line">#FF751C</color>
+    <color name="attention_text_nor">#0aaa3b</color>
+    <color name="attention_text_sel">#05832b</color>
+    <color name="attentioned_text_nor">#cf2929</color>
+    <color name="attentioned_text_sel">#a40f0f</color>
+
+    <drawable name="contact_btn_bg_press">#00000000</drawable>
+
+    <color name="grey_drak">#d3d3d3</color>
+    <color name="attention_add">#08bb39</color>
+    <color name="color_org">#f25e04</color>
+    <color name="color_voice_normal">#606060</color>
+    <color name="gray_text">#999999</color>
+    <color name="group_line">#CBCBCB</color>
+    <color name="dark_grey">#5f5f5f</color>
+    <color name="light_grey_text">#0f0f0f</color><!-- 点赞 -->
+    <color name="divider_line_color">#dddbdb</color>
+    <color name="talk_name_bg_black">#60000000</color>
+    <!-- <color name="talk_name_bg_or">#f15a22</color> -->
+
+    <color name="title_top_bg">#333333</color>
+    <color name="windowBackground">#af000000</color>
+    <color name="add_btn">#13649C</color>
+
+    <drawable name="gray_bg">#eaeaea</drawable>
+
+    <color name="add_btn_bg">#f5f5f5</color>
+    <color name="add_btn_time">#324681</color>
+    <color name="add_btn_initials">#4AB134</color>
+    <color name="add_btn_new">#E36106</color>
+
+    <drawable name="viewpoint_normal">#00000000</drawable>
+    <drawable name="viewpoint_selected1">#40e8e8e8</drawable>
+    <drawable name="indicator_orgin">#F15A24</drawable>
+
+    <color name="d0_grey">#d0d0d0</color>
+    <color name="f0_grey">#f0f0f0</color>
+    <color name="grey_80">#808080</color>
+    <color name="purple_text">#9b83c4</color>
+    <color name="record_text_bg_color">#FFabc3d7</color>
+    <color name="record_bg_color">#FFebf0f8</color>
+    <color name="black_title">#646464</color>
+    <color name="translucent_black_title">#803c3131</color>
+    <color name="black_content">#7C7878</color>
+    <color name="black_hint">#999999</color>
+    <color name="black_tag">#a49f9f</color>
+    <color name="black_tag2">#8e8c8c</color>
+   <color name="grey_tabs">#8c8c8c</color>
+    <color name="orange_title">#ffa563</color>
+    <color name="arcprogress_unfinished">#4cffffff</color>
+    <color name="arcprogress_finished_secondary">#80ffffff</color>
+    <color name="arcprogress_text_color">#666666</color>
+    <color name="arcprogress_suffix_text_color">#a49f9f</color>
+    <color name="voice_bg">#101010</color>
+    <color name="red_bg">#fb7966</color>
+    <color name="light_blue_bg">#47b3f1</color>
+    <color name="purple_bg">#d76afe</color>
+    <color name="dark_grey_bg">#4f4f4f</color>
+    <color name="colorline">#d9d9d9</color>
+    <color name="push_text_color">#dbdbdb</color>
+
+    <drawable name="imgTitleBlack">#99000000</drawable>
+
+    <color name="green_text">#52a941</color>
+    <color name="topic_delete_bg">#f56357</color>
+    <color name="dialog_bg">#B2000000</color>
+    <color name="grey_txt">#6E6A69</color>
+    <color name="edit_black_bg">#dfdfdf</color>
+    <color name="edit_black_txt">#8a8787</color>
+    <color name="grey_bg">#cdcdcd</color>
+    <color name="text_chat_name_color">#aaaaaa</color>
+    <color name="text_chat_color">#353535</color>
+    <color name="talk_item_title">#353535</color>
+    <color name="talk_item_subcontent">#999999</color>
+    <color name="text_cicle_bg_press">#d8d8d8</color>
+    <color name="video_bg">#ffffff</color>
+    <color name="video_progress_color">#7feb37</color>
+    <color name="circle_comment_color">#808080</color><!-- 评论内容 --> 
+    <color name="black_overlay">#66000000</color>
+    <color name="circle_name_color">#2b2b2b</color><!-- 评论人 --> 
+    <color name="circle_delete_color">#475d8b</color>
+
+     <color name="main_text_color">#ff784b</color>
+<!--     <color name="title_bg">#ff6633</color> -->
+ <!--  <color name="title_bg">#ff784b</color>  -->
+  <!--   <color name="title_bg">#f6f6f6</color>  -->
+   <color name="title_bg">#84c1ff</color> 
+   <color name="title_text">#ffffff</color>
+    <!-- <color name="title_text">#525252</color> -->
+     <color name="title_text_right">#868686</color> 
+     <color name="title_user_bg">#5670ed</color> 
+     <color name="transparent_white">#80ffffff</color>
+     
+    <color name="bg_gray">#ffffff</color>
+    <color name="chat_bg">#eeeeee</color>
+    <color name="chat_text_color">#663333</color>
+    
+    <color name="treasure_text_gray">#656565</color>
+      <color name="light_orange_color1">#ffc600</color>    
+    <color name="light_orange_color2">#ffa200</color>
+    
+    <color name="origin_text">#ff784b</color> 
+    <!-- <color name="botton_text">#ff784b</color>  -->
+    <color name="botton_text">#00b1ff</color><!-- 标准蓝色 -->
+    
+    <color name="tlak_listview_content">#9b9b9b</color>
+	<color name="tlak_listview_time">#b2b2b2</color>
+	<color name="beiwang_main_font_color">#454545</color>
+	<color name="beiwang_sub_font_color">#929292</color>
+	<color name="beiwang_font_color">#9c9c9c</color>
+	<!-- clock -->
+	<color name="clock_bg">#f2f2f2</color>
+    
+    <color name="crop__button_bar">#f3f3f3</color>
+    <color name="crop__button_text">#666666</color>
+    <color name="crop__selector_pressed">#1a000000</color>
+    <color name="crop__selector_focused">#77000000</color>
+</resources>

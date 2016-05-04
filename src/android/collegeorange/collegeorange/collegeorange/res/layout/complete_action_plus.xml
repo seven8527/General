@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:id="@+id/layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center_horizontal" >
+
+        <LinearLayout
+            android:id="@+id/content_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/popwindow_bg"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="40dp" >
+
+            <TextView
+                android:id="@+id/content_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black_content"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/exitBtn0"
+                android:layout_width="fill_parent"
+                android:layout_height="45dip"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/btn_shengji"
+                android:gravity="center"
+                android:padding="0dp"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/exitBtn1"
+                android:layout_width="fill_parent"
+                android:layout_height="45dip"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/btn_shengji"
+                android:gravity="center"
+                android:padding="0dp"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/exitBtn2"
+                android:layout_width="fill_parent"
+                android:layout_height="45dip"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/btn_shengji"
+                android:gravity="center"
+                android:padding="0dp"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/exitBtn3"
+                android:layout_width="fill_parent"
+                android:layout_height="45dip"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/btn_shengji"
+                android:gravity="center"
+                android:padding="0dp"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/exitBtn4"
+                android:layout_width="fill_parent"
+                android:layout_height="45dip"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/btn_shengji"
+                android:gravity="center"
+                android:padding="0dp"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/exitBtn5"
+                android:layout_width="fill_parent"
+                android:layout_height="45dip"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/btn_shengji"
+                android:gravity="center"
+                android:padding="0dp"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/exitBtn6"
+                android:layout_width="fill_parent"
+                android:layout_height="45dip"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/btn_shengji"
+                android:gravity="center"
+                android:padding="0dp"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/exitBtn"
+                android:layout_width="fill_parent"
+                android:layout_height="45dip"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/bg_body_gray_button"
+                android:gravity="center"
+                android:padding="0dp"
+                android:text="取消"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

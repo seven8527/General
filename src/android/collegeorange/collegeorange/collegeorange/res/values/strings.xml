@@ -1,0 +1,114 @@
+<?xml version="1.0"?>
+
+<resources>
+
+	<string name="app_name">大学圈</string>
+	
+	<!-- Strings related to login -->
+	
+	
+	<string name="prompt_email">Email</string>
+	
+	<string name="prompt_password">Password (optional)</string>
+	
+	<string name="action_sign_in">登录</string>
+	
+	<string name="action_sign_in_short">Sign in</string>
+	
+	<string name="error_invalid_email">请输入正确的手机号码</string>
+	
+	<string name="error_invalid_password">请输入正确的密码</string>
+	
+	<string name="error_incorrect_password">This password is incorrect</string>
+	
+	<string name="error_field_required">请输入正确的手机号码</string>
+	
+	<string name="permission_rationale">"Contacts permissions are needed for providing email completions." </string>
+	
+	<string name="title_item_list">Items</string>
+	
+	<string name="title_item_detail">Item Detail</string>
+	
+	<string name="title_login">登录</string>
+	
+	<string name="title_register">注册</string>
+	
+	<string name="action_settings">设置</string>
+	
+	<string name="section_format">Hello World from section: %1$d</string>
+	
+	<string name="connection_error">Connection Error!</string>
+	
+	<string name="title_activity_web_view">WebViewActivity</string>
+	
+	<string name="input_verfiy_hint">输入验证码</string>
+	
+	<string name="verfiy_code">验证码</string>
+	
+	<string name="phone_number">手 机</string>
+	
+	<string name="input_mobile_hint">请输入手机号码</string>
+	
+	<string name="input_pwd_hint">请设置您的登录密码</string>
+	
+	<string name="register_btn">注册</string>
+	
+	<string name="pwd_text">密 码</string>
+	
+	<string name="get_verfiy_code">获取验证码</string>
+	
+	<string name="go_register_page">注册账号</string>
+
+	<string name="find_pwd_page">找回密码</string>
+	<string name="share_wx_circle">分享到朋友圈</string>
+	<string name="share_wx_friends">分享给微信好友</string>
+	<string name="qr_save">保存</string>
+	<string name="my_app_ok">完成</string>
+	<string name="my_app_cancel">取消</string>
+	<string name="my_app_update">更新</string>
+	<string name="app_update_title">新版本提示</string>
+	<string name="app_update_message">发现新的应用版本，是否现在更新？</string>
+	  
+	<string name="feedback_succeed">发送成功</string>
+	<string name="feedback_send">发送</string>
+	
+	<string name="delete_conf" formatted="false">您确定要删除？</string>
+	<string name="delete">正在删除&#8230;</string>
+	<string name="error_focus_invalid">请求已经发送成功，等待对方验证</string>
+	<string name="error_server">服务器出错，请稍候再试！</string>
+	<string name="error_network">网络不给力，请重试！</string>
+	<string name="error_obtain">获取失败，请稍候再试！</string>
+	
+	<string name="lable_viewpoint">话题分享</string>
+	<string name="info_user">登录名</string>
+	<string name="info_name">昵称</string>
+	<string name="info_sex">性 别</string>
+	<string name="info_address">所在地</string>
+	<string name="info_brief">简介</string>
+	<string name="info_email">邮箱</string>
+	<string name="info_accounts">帐号</string>
+	<string name="info_password">重置密码</string>
+	<string name="info_logout">退出</string>
+	<string name="info_title">个人信息</string>
+	<string name="info_age">年 龄</string>
+	<string name="info_hobbies">爱好</string>
+	<string name="city">城 市</string>
+	<string name="info_school">学校</string>
+	<string name="submit">编辑</string>
+	<string name="signature_tag">个性签名</string>
+	<string name="info_change_ok">修改成功</string>
+	<string name="male">男</string>
+    <string name="female">女</string>
+    <string name="rec_delete_yes">确定</string>
+	<string name="health_weight_text">体重</string>
+	<string name="Uploading_Photos">正在上传头像…</string>
+	
+	<string name="about_us">关于我们</string>
+    
+    <string name="crop__saving">正在保存照片…</string>
+    <string name="crop__wait">请等待…</string>
+    <string name="crop__pick_error">无效的图片</string>
+    
+    <string name="crop__done">完成</string>
+    <string name="crop__cancel" >取消</string>
+</resources>
