@@ -1,0 +1,391 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A82081F1D926FC800A10A78 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A82081E1D926FC800A10A78 /* main.m */; };
+		5A8208221D926FC800A10A78 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A8208211D926FC800A10A78 /* AppDelegate.m */; };
+		5A8208251D926FC800A10A78 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A8208241D926FC800A10A78 /* ViewController.m */; };
+		5A8208281D926FC800A10A78 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A8208261D926FC800A10A78 /* Main.storyboard */; };
+		5A82082A1D926FC800A10A78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A8208291D926FC800A10A78 /* Assets.xcassets */; };
+		5A82082D1D926FC800A10A78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A82082B1D926FC800A10A78 /* LaunchScreen.storyboard */; };
+		5A8208351D9278C600A10A78 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5A8208341D9278C600A10A78 /* GoogleService-Info.plist */; };
+		F1C8DBCFEE645D2FF46E8A31 /* libPods-meitu.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C7FD1FCDEB4E95BE4E3FD68 /* libPods-meitu.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5A82081A1D926FC700A10A78 /* meitu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = meitu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A82081E1D926FC800A10A78 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5A8208201D926FC800A10A78 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5A8208211D926FC800A10A78 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5A8208231D926FC800A10A78 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5A8208241D926FC800A10A78 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5A8208271D926FC800A10A78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5A8208291D926FC800A10A78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5A82082C1D926FC800A10A78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5A82082E1D926FC800A10A78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A8208341D9278C600A10A78 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7C7FD1FCDEB4E95BE4E3FD68 /* libPods-meitu.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-meitu.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C051960C3B8A65BEBF70AE06 /* Pods-meitu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-meitu.release.xcconfig"; path = "Pods/Target Support Files/Pods-meitu/Pods-meitu.release.xcconfig"; sourceTree = "<group>"; };
+		EE516E8DB205EEEB0F744417 /* Pods-meitu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-meitu.debug.xcconfig"; path = "Pods/Target Support Files/Pods-meitu/Pods-meitu.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A8208171D926FC700A10A78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1C8DBCFEE645D2FF46E8A31 /* libPods-meitu.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0474AD1E978372FA463D6611 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7C7FD1FCDEB4E95BE4E3FD68 /* libPods-meitu.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5A8208111D926FC600A10A78 = {
+			isa = PBXGroup;
+			children = (
+				5A82081C1D926FC800A10A78 /* meitu */,
+				5A82081B1D926FC700A10A78 /* Products */,
+				A9B1CF3422E88D090880DFBF /* Pods */,
+				0474AD1E978372FA463D6611 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5A82081B1D926FC700A10A78 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A82081A1D926FC700A10A78 /* meitu.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A82081C1D926FC800A10A78 /* meitu */ = {
+			isa = PBXGroup;
+			children = (
+				5A8208341D9278C600A10A78 /* GoogleService-Info.plist */,
+				5A8208201D926FC800A10A78 /* AppDelegate.h */,
+				5A8208211D926FC800A10A78 /* AppDelegate.m */,
+				5A8208231D926FC800A10A78 /* ViewController.h */,
+				5A8208241D926FC800A10A78 /* ViewController.m */,
+				5A8208261D926FC800A10A78 /* Main.storyboard */,
+				5A8208291D926FC800A10A78 /* Assets.xcassets */,
+				5A82082B1D926FC800A10A78 /* LaunchScreen.storyboard */,
+				5A82082E1D926FC800A10A78 /* Info.plist */,
+				5A82081D1D926FC800A10A78 /* Supporting Files */,
+			);
+			path = meitu;
+			sourceTree = "<group>";
+		};
+		5A82081D1D926FC800A10A78 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5A82081E1D926FC800A10A78 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A9B1CF3422E88D090880DFBF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EE516E8DB205EEEB0F744417 /* Pods-meitu.debug.xcconfig */,
+				C051960C3B8A65BEBF70AE06 /* Pods-meitu.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5A8208191D926FC700A10A78 /* meitu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A8208311D926FC800A10A78 /* Build configuration list for PBXNativeTarget "meitu" */;
+			buildPhases = (
+				6A264C666230581B0E0FFC02 /* Check Pods Manifest.lock */,
+				5A8208161D926FC700A10A78 /* Sources */,
+				5A8208171D926FC700A10A78 /* Frameworks */,
+				5A8208181D926FC700A10A78 /* Resources */,
+				F9495CE46FDAA4A3ECC276FB /* Embed Pods Frameworks */,
+				9EDD6DB0E66C17E45F6215DD /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = meitu;
+			productName = meitu;
+			productReference = 5A82081A1D926FC700A10A78 /* meitu.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5A8208121D926FC600A10A78 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = simon;
+				TargetAttributes = {
+					5A8208191D926FC700A10A78 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 5A8208151D926FC700A10A78 /* Build configuration list for PBXProject "meitu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5A8208111D926FC600A10A78;
+			productRefGroup = 5A82081B1D926FC700A10A78 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5A8208191D926FC700A10A78 /* meitu */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5A8208181D926FC700A10A78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A82082D1D926FC800A10A78 /* LaunchScreen.storyboard in Resources */,
+				5A8208351D9278C600A10A78 /* GoogleService-Info.plist in Resources */,
+				5A82082A1D926FC800A10A78 /* Assets.xcassets in Resources */,
+				5A8208281D926FC800A10A78 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6A264C666230581B0E0FFC02 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9EDD6DB0E66C17E45F6215DD /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-meitu/Pods-meitu-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F9495CE46FDAA4A3ECC276FB /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-meitu/Pods-meitu-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5A8208161D926FC700A10A78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A8208251D926FC800A10A78 /* ViewController.m in Sources */,
+				5A8208221D926FC800A10A78 /* AppDelegate.m in Sources */,
+				5A82081F1D926FC800A10A78 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5A8208261D926FC800A10A78 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A8208271D926FC800A10A78 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5A82082B1D926FC800A10A78 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A82082C1D926FC800A10A78 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5A82082F1D926FC800A10A78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5A8208301D926FC800A10A78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5A8208321D926FC800A10A78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE516E8DB205EEEB0F744417 /* Pods-meitu.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: xiaoxi hu (YN993XNN4K)";
+				INFOPLIST_FILE = meitu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.site88.ijoke.meitu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5A8208331D926FC800A10A78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C051960C3B8A65BEBF70AE06 /* Pods-meitu.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: xiaoxi hu (YN993XNN4K)";
+				INFOPLIST_FILE = meitu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.site88.ijoke.meitu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A8208151D926FC700A10A78 /* Build configuration list for PBXProject "meitu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A82082F1D926FC800A10A78 /* Debug */,
+				5A8208301D926FC800A10A78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A8208311D926FC800A10A78 /* Build configuration list for PBXNativeTarget "meitu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A8208321D926FC800A10A78 /* Debug */,
+				5A8208331D926FC800A10A78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5A8208121D926FC600A10A78 /* Project object */;
+}
