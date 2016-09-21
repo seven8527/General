@@ -17,19 +17,19 @@ require_once('./Response.php');
 	{
 
 		$conn = DB::getInstance()->connect();
-		$sql = "SELECT pwd FROM `user` WHERE name='{$usr}'";
+		$sql = "SELECT password FROM `userinfo` WHERE name='{$usr}'";
 		$result = mysql_query($sql, $conn);
 		//var_dump($sql);
 		//var_dump($result);
-		if ($result==false) {
+		if (!mysql_num_rows($result)) {
 			echo Response::result(403, '用户不存在', array());
 			exit();
 		}
 
 		while ($user = mysql_fetch_array($result)) {		 
 
-			if ($user) {
-				if ($user['pwd'] == $pwd) {
+			if (!empty($user)) {
+				if ($user['password'] == $pwd) {
 					echo Response::result(200, '登陆成功', mysql_fetch_array($result));
 				}
 				else

@@ -8,41 +8,62 @@
 
 #import "CIFilterEffect.h"
 
-//@"CILinearToSRGBToneCurve",
-//@"CIPhotoEffectChrome",
-//@"CIPhotoEffectFade",
-//@"CIPhotoEffectInstant",
-//@"CIPhotoEffectMono",
-//@"CIPhotoEffectNoir",
-//@"CIPhotoEffectProcess",
-//@"CIPhotoEffectTonal",
-//@"CIPhotoEffectTransfer",
-//@"CISRGBToneCurveToLinear",
-//@"CIVignetteEffect",
+
+//@"CIPhotoEffectChrome";//铬黄
+//@"CIPhotoEffectFade"; //褪色
+//@"CIPhotoEffectInstant";//怀旧
+//@"CIPhotoEffectMono"; //单色
+//@"CIPhotoEffectNoir";//黑白
+//@"CIPhotoEffectProcess"; //冲印
+//@"CIPhotoEffectTonal";//色调
+//@"CIPhotoEffectTransfer";//岁月
+
+
 
 @implementation CIFilterEffect
 
-- (instancetype)initWithImage:(UIImage *)image filterName:(NSString *)name
+- (instancetype)initWithImage:(UIImage *)image filterType:(FILTERTYPE)type
 {
-    self = [super init];
-    if (self)
+   
+    if (self = [super init])
     {
-        // 将UIImage转换成CIImage
-        CIImage *ciImage = [[CIImage alloc] initWithImage:image];
-        // 创建滤镜
-        CIFilter *filter = [CIFilter filterWithName:name
-                                      keysAndValues:kCIInputImageKey, ciImage, nil];
-        [filter setDefaults];
-        // 获取绘制上下文
-        CIContext *context = [CIContext contextWithOptions:nil];
-        // 渲染并输出CIImage
-        CIImage *outputImage = [filter outputImage];
-        // 创建CGImage句柄
-        CGImageRef cgImage = [context createCGImage:outputImage
-                                           fromRect:[outputImage extent]];
+        NSString * name  = nil;
+        switch (type) {
+            case CIPhotoEffectChrome:
+                name = @"CIPhotoEffectChrome";
+                break;
+            case CIPhotoEffectFade:
+                name = @"CIPhotoEffectFade";
+                break;
+            case CIPhotoEffectInstant:
+                name = @"CIPhotoEffectInstant";
+                break;
+            case CIPhotoEffectMono:
+                name = @"CIPhotoEffectMono";
+                break;
+            case CIPhotoEffectNoir:
+                name = @"CIPhotoEffectNoir";
+                break;
+            case CIPhotoEffectProcess:
+                name = @"CIPhotoEffectProcess";
+                break;
+            case CIPhotoEffectTonal:
+                name = @"CIPhotoEffectTonal";
+                break;
+            case CIPhotoEffectTransfer:
+                name = @"CIPhotoEffectTransfer";
+                break;
+            default:
+                break;
+        }
         
-        _result = [UIImage imageWithCGImage:cgImage];
-        // 释放CGImage句柄
+        CIImage *ciImage = [[CIImage alloc] initWithImage:image];
+        CIFilter *filter = [CIFilter filterWithName:name keysAndValues:kCIInputImageKey, ciImage, nil];  //创建滤镜
+//        [filter setDefaults];
+        CIContext *context = [CIContext contextWithOptions:nil];
+        CIImage *outputImage = [filter outputImage]; //渲染并输出CIImage
+        CGImageRef cgImage = [context createCGImage:outputImage  fromRect:[outputImage extent]];
+        _result = [UIImage imageWithCGImage:cgImage scale:1.0 orientation:image.imageOrientation];
         CGImageRelease(cgImage);
     }
     return self;

@@ -5,10 +5,10 @@ class DB{
 	static private $_instance;
 	static private $_connet;
 	private $db_config = array(
-		'host'=>'mysql13.000webhost.com',
-		'usr'=> 'a323234098_root',
-		'pwd'=> '123456',
-		'db_name'=> 'a323234098_seven',
+		'host'=>'mysql1.000webhost.com',
+		'usr'=> 'a6592401_ijoke',
+		'pwd'=> 'Alex_owen0',
+		'db_name'=> 'a6592401_ijoke',
 	);
 	
 	private function __construct()

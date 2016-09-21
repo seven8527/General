@@ -4,10 +4,10 @@
 require_once('./Response.php');
 
 
-//define(DB_HOST,'localhost');
-//define(DB_NAME, 'root');
-//define(DB_PWD, 'Alex_owen0');
-//define(DB_DBNAME, 'persion');
+define(DB_HOST,'mysql13.000webhost.com');
+define(DB_NAME, 'a3234098_root');
+define(DB_PWD, '123456');
+define(DB_DBNAME, 'a3234098_seven');
 //define(DB_TABLENAME, 'persioninfo');
 
 //创建连接
