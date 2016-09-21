@@ -19,6 +19,7 @@
     [super viewDidLoad];
     
     AFHTTPSessionManager *manager = [AFHTTPSessionManager manager];
+    manager.responseSerializer = [AFJSONResponseSerializer serializer];
     manager.responseSerializer.acceptableContentTypes = [NSSet setWithObject:@"text/html"];
    
 //    [manager GET:@"http://app.seven.netai.net/myfirst.php?format=json" parameters:nil progress:nil success:^(NSURLSessionTask *task, id responseObject) {
